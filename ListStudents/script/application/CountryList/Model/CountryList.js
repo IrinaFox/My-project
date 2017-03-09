@@ -18,40 +18,24 @@ var CountryList = (function () {
             }
         };
 
-        this.getCountriesOfContinent = function (continent) {
-            var countriesOfContinent = [];
-
-            this.forEach(function (country) {
-                var countryJSON = country.toJSON();
-                console.log(countryJSON);
-                if (continent === 'all') {
-                    countriesOfContinent.push(country);
-                } else if (countryJSON['continent'] === continent) {
-                    countriesOfContinent.push(country);
-                }
-            });
-
-            console.log(countriesOfContinent);
-
-            return countriesOfContinent;
-        };
-
         return this;
     }
 
-    /*Country.prototype.getCountriesOfContinent = function (continent) {
+    CountryList.prototype.getCountriesOfContinent = function (continent) {
         var countriesOfContinent = [];
 
         this.forEach(function (country) {
-            if (continent = 'all') {
+            var countryJSON = country.toJSON();
+
+            if (continent === 'all') {
                 countriesOfContinent.push(country);
-            } else if (country['continent'] === continent) {
+            } else if (countryJSON['continent'] === continent) {
                 countriesOfContinent.push(country);
             }
         });
 
         return countriesOfContinent;
-    };*/
+    };
 
     return CountryList;
 })();
