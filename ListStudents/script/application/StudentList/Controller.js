@@ -7,16 +7,9 @@ function ControllerStudentList () {
         infoView = new InfoView(),
         editView = new EditView(),
         students = new StudentList(),
-        studentListView = new StudentListView(students),
-        header = studentListView.renderHeader(),
-        studentList = studentListView.render();
+        studentListView = new StudentListView(students);
 
-    this.display = function () {
-       _studentList.appendChild(header);
-       _studentList.appendChild(studentList);
-    };
-
-    this.display();
+       _studentList.appendChild(studentListView.display());
 
     mediator.sub('StudentListInfoChanged', function (_student) {
         var infoWindowList = document.querySelector('#infoWindowList'),

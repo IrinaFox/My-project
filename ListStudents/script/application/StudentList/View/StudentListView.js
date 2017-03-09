@@ -1,18 +1,37 @@
 'use strict';
 
-function StudentListView (_students, _content) {
-    var students = _students,
-        listDiv = document.createElement('div');
+var StudentListView = (function () {
+    function StudentListView (_students, _content) {
+        var students = _students,
+            listDiv = document.createElement('div');
 
-    this.render = function () {
-        students.forEach(function (item) {
-            createStudent(item);
-        });
+        this.render = function () {
+            students.forEach(function (item) {
+                createStudent(item);
+            });
 
-        return listDiv;
-    };
+            return listDiv;
+        };
 
-    this.renderHeader = function () {
+        this.display = function () {
+            var f = document.createDocumentFragment(),
+                header = this.renderHeader(),
+                studentList = this.render();
+
+            f.appendChild(header);
+            f.appendChild(studentList);
+
+            return f;
+        };
+
+        function createStudent (item) {
+            var studentView = new ItemView(item),
+                student = studentView.render();
+            listDiv.appendChild(student);
+        }
+    }
+
+    StudentListView.prototype.renderHeader = function () {
         var containerDiv = document.createElement('div');
 
         containerDiv.innerHTML = headerStudentListTpl;
@@ -22,9 +41,5 @@ function StudentListView (_students, _content) {
         return containerDiv;
     };
 
-    function createStudent (item) {
-        var studentView = new ItemView(item),
-            student = studentView.render();
-            listDiv.appendChild(student);
-    }
- }
+    return StudentListView;
+})();
