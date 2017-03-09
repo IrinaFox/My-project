@@ -2,24 +2,27 @@
 
 var CountryList = (function () {
     function CountryList () {
-        var countries = parserCountries(),
-            i;
+        var countries = parserCountries();
 
         this.forEach = function (fn) {
             countries.forEach(fn);
         };
 
-        this.removeCountry =  function (country) {
-            for (i=0; i<countries.length; i++) {
-                if (countries[i].get('name') === country.get('name')) {
-                    var index = countries.indexOf(country);
-                    countries.splice(index, 1);
-                }
-            }
+        this.getCountries = function () {
+            return countries;
         };
 
         return this;
     }
+
+    CountryList.prototype.removeCountry = function (country) {
+        for (let i = 0; i < this.getCountries().length; i++) {
+            if (this.getCountries()[i].get('name') === country.get('name')) {
+                var index = this.getCountries().indexOf(country);
+                this.getCountries().splice(index, 1);
+            }
+        }
+    };
 
     CountryList.prototype.getCountriesOfContinent = function (continent) {
         var countriesOfContinent = [];
