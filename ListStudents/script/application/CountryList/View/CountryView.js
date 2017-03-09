@@ -1,81 +1,73 @@
 'use strict';
 
 var CountryView = (function () {
+
     function CountryView(_country) {
         var country = _country,
-            values = {
-                containerDiv: document.createElement('div'),
-                buttonDislike: undefined,
-                buttonDelete: undefined,
-                buttonLik: undefined
-            };
+            containerDiv = document.createElement('div');
+
+         this.render = function () {
+             var stringElement = replacer(country, countryTpl);
+
+             containerDiv.innerHTML = stringElement;
+             containerDiv.classList.add('lineCountry');
+
+             this.addEvents();
+
+             return containerDiv;
+         };
 
         /*this.render = function () {
-         var stringElement = replacer(country, countryTpl);
+            return this.renderElement(containerDiv, country, countryTpl, 'lineCountry', this.addEvents);
+        }; */
 
-         containerDiv.innerHTML = stringElement;
-         containerDiv.classList.add('lineCountry');
-
-         addEvents();
-
-         return containerDiv;
-         }; */
-
-        this.render = function () {
-            return this.renderElement(values['containerDiv'], country, countryTpl, 'lineCountry', addEvents);
+        this.getContainer = function (key) {
+          return containerDiv;
         };
 
-        this.get = function (key) {
-          return values[key];
+        this.getCountry = function () {
+            return country;
         };
 
-        this.set = function (key, value) {
-            values[key] = value;
-        };
+        return this;
+    }
 
-        function addEvents () {
-            var buttons = values['containerDiv'].querySelectorAll('input');
+    CountryView.prototype.addEvents = function  () {
+        var containerDiv = this.getContainer(),
+            country = this.getCountry(),
+            buttonDislike = containerDiv.querySelector('input[name="dislike"'),
+            buttonDelete =  containerDiv.querySelector('input[name="delete"'),
+            buttonLike = containerDiv.querySelector('input[name="like"');
 
-            values['buttonLike'] = buttons[0];
-            values['buttonDislike'] = buttons[1];
-            values['buttonDelete'] = buttons[2];
-
-            values['buttonDislike'].addEventListener('click', eventToButtonDislike, false);
-            values['buttonLike'].addEventListener('click', eventToButtonLike, false);
-            values['buttonDelete'].addEventListener('click', eventToButtonDelete, false);
-        }
-
-
+        buttonDislike.addEventListener('click', eventToButtonDislike, false);
+        buttonLike.addEventListener('click', eventToButtonLike, false);
+        buttonDelete.addEventListener('click', eventToButtonDelete, false);
 
         function eventToButtonLike () {
-            values['containerDiv'].classList.add('brightCountry')
+            containerDiv.classList.add('brightCountry')
         }
 
         function eventToButtonDislike () {
-            values['containerDiv'].parentNode.removeChild(values['containerDiv']);
+            containerDiv.parentNode.removeChild(containerDiv);
             removeEvents();
         }
 
         function eventToButtonDelete () {
-            values['containerDiv'].parentNode.removeChild(values['containerDiv']);
+            containerDiv.parentNode.removeChild(containerDiv);
             removeEvents();
             mediator.pub('CountryListCountryDeleted', country);
         }
 
         function removeEvents () {
-            values['buttonDislike'].removeEventListener('click', eventToButtonDislike);
-            values['buttonDelete'].removeEventListener('click', eventToButtonDelete);
-            values['buttonLike'].removeEventListener('click', eventToButtonLike);
+            buttonDislike.removeEventListener('click', eventToButtonDislike);
+            buttonDelete.removeEventListener('click', eventToButtonDelete);
+            buttonLike.removeEventListener('click', eventToButtonLike);
         }
 
         mediator.sub('eventsDeleted', function  () {
             removeEvents();
         });
-
-        return this;
-    }
-
-    CountryView.prototype = new View();
+    };
 
     return CountryView;
 })();
