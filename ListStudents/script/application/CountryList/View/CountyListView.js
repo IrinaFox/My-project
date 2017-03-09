@@ -73,6 +73,7 @@ var CountryListView = (function () {
             mediator.pub('continentChosen', 'africa');
         }
         function addEventAustralia() {
+            console.log('works');
             mediator.pub('continentChosen', 'australia');
         }
         function addEventAll() {

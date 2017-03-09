@@ -22,12 +22,16 @@ var CountryList = (function () {
             var countriesOfContinent = [];
 
             this.forEach(function (country) {
-                if (continent = 'all') {
+                var countryJSON = country.toJSON();
+                console.log(countryJSON);
+                if (continent === 'all') {
                     countriesOfContinent.push(country);
-                } else if (country['continent'] === continent) {
+                } else if (countryJSON['continent'] === continent) {
                     countriesOfContinent.push(country);
                 }
             });
+
+            console.log(countriesOfContinent);
 
             return countriesOfContinent;
         };
