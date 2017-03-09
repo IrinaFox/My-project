@@ -1,0 +1,38 @@
+#block {
+    border: 1px black solid;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+#contentColorBlock {
+    display: block;
+    border: none;
+}
+
+.mainDiv {
+    border: 1px black solid;
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+    height: 130px;
+    background-color: #f5ffd3;
+    padding: 10px;
+}
+
+.buttonColor {
+    display: block;
+    margin: 10px;
+}
+
+.red {
+    background-color: #ff1a5d;
+}
+
+.green {
+    background-color: #6affc1;
+}
+
+.blue {
+    background-color: #3ad5ff;
+}

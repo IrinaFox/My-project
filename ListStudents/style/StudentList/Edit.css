@@ -1,0 +1,23 @@
+#editForm {
+    width: 400px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.labelEdit {
+    display: inline-block;
+    width: 100px;
+    border: none;
+}
+
+.editElement {
+    width: 200px;
+}
+
+.buttonSave {
+    float: right;
+}
+
+.editDiv {
+    width: 350px;
+}

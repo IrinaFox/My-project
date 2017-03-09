@@ -1,0 +1,27 @@
+.infoWindow {
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    margin: 20px;
+    background-color: #e8ebea;
+}
+
+.infoDiv {
+    float: none;
+    width: 200px;
+    margin: 0;
+}
+
+.buttonClose {
+    margin: auto;
+    float: right;
+    background-color: #c6c6c6;
+}
+.divInfoHeader {
+    width: 150px;
+    display: inline-block;
+}
+.divInfoValue {
+    width: 200px;
+    float: none;
+}

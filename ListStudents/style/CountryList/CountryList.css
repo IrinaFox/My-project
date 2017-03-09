@@ -1,0 +1,30 @@
+#countryList {
+    display: inline-block;
+}
+
+.lineCountry {
+    background-color: #fff1f8;
+}
+
+#countryList #menu {
+    background-color: #f0ceec;
+}
+
+.brightCountry {
+    background-color: #a5ffd5;
+}
+
+#countries {
+    border: none;
+}
+.buttonContinent {
+    background-color: #ff86c4;
+    height: 40px;
+    width: 80px;
+}
+
+.containerButtonContinent {
+    background-color: #f0ceec;
+    display: block;
+    width: 600px;
+}

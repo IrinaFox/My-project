@@ -1,0 +1,44 @@
+#contentStudentList {
+    border: 3px #00d0d0 solid;
+    background-color: #7bfada;
+    padding: 5px;
+    display: inline-block;
+}
+
+.miniDiv {
+   display: inline-block;
+    width: 150px;
+    padding: 5px;
+}
+
+.line {
+    background-color: #e3fff1;
+    display: block;
+    border: none;
+}
+
+#menu {
+    background-color: cadetblue;
+}
+
+.pic {
+    width: 15px;
+    height: 15px;
+}
+
+.button {
+    margin: auto;
+}
+
+.miniDivButton {
+    display: inline-block;
+    width: 80px;
+    padding: 5px;
+}
+
+#additionalStudentList {
+    display: inline-block;
+    vertical-align: top;
+    border: none;
+    background-color: #e3fff1;
+}
