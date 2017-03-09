@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d27c6083-3f92-4ef7-9a86-c5abc1077b6b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ListStudents/script/application/StudentList/Controller.js" afterPath="$PROJECT_DIR$/ListStudents/script/application/StudentList/Controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ListStudents/script/application/StudentList/View/StudentListView.js" afterPath="$PROJECT_DIR$/ListStudents/script/application/StudentList/View/StudentListView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ListStudents/script/application/StudentList/View/ItemView.js" afterPath="$PROJECT_DIR$/ListStudents/script/application/StudentList/View/ItemView.js" />
     </list>
     <ignored path="SoftServe.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,31 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemView.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ItemView.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/View/ItemView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="1122">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentListView.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/View/StudentListView.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5272953" vertical-offset="0" max-vertical-offset="867">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/Controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.12655087" vertical-offset="0" max-vertical-offset="1088">
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -110,7 +89,6 @@
         <option value="$PROJECT_DIR$/ListStudents/script/application/CountryList/Tpl/CountriesCSV.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/application/CountryList/Tpl/ParserCountries.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/libs/View.js" />
-        <option value="$PROJECT_DIR$/ListStudents/script/application/StudentList/View/ItemView.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/application/CountryList/CSV/ParserCountries.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/application/CountryList/Model/Country.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/application/CountryList/Model/CountryList.js" />
@@ -126,6 +104,7 @@
         <option value="$PROJECT_DIR$/ListStudents/script/application/StudentList/View/EditView.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/application/StudentList/View/StudentListView.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/application/StudentList/Controller.js" />
+        <option value="$PROJECT_DIR$/ListStudents/script/application/StudentList/View/ItemView.js" />
       </list>
     </option>
   </component>
@@ -899,14 +878,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/View/ItemView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="1122">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/Controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
@@ -917,8 +888,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/View/StudentListView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5272953" vertical-offset="0" max-vertical-offset="867">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.18982631" vertical-offset="0" max-vertical-offset="867">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/View/ItemView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12655087" vertical-offset="0" max-vertical-offset="1088">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
           <folding />
         </state>
       </provider>

@@ -1,6 +1,6 @@
 'use strict';
 
-//For one line with datas of student
+//For one line with data of student
 var ItemView = (function () {
     function ItemView (_student) {
         var containerDiv = document.createElement('div'),
@@ -8,20 +8,20 @@ var ItemView = (function () {
             moreButton,
             editButton;
 
-        /*this.render = function () {
-         var stringElement = replacer(student, itemTpl);
-
-         containerDiv.innerHTML = stringElement;
-         containerDiv.classList.add('line');
-
-         addEvent();
-
-         return containerDiv;
-         };*/
-
         this.render = function () {
+             var stringElement = replacer(student, itemTpl);
+
+             containerDiv.innerHTML = stringElement;
+             containerDiv.classList.add('line');
+
+             addEvent();
+
+             return containerDiv;
+         };
+
+        /*this.render = function () {
             return this.renderElement(containerDiv, student, itemTpl, 'line', addEvent);
-        };
+        };*/
 
         student.sub('change', function () {
             var stringElement = replacer(student, itemTpl);
@@ -54,8 +54,6 @@ var ItemView = (function () {
             mediator.pub('StudentListEditChanged', student);
         }
     }
-
-    ItemView.prototype = new View();
 
     return ItemView;
 })();
