@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d27c6083-3f92-4ef7-9a86-c5abc1077b6b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ListStudents/script/application/CountryList/Tpl/ButtonContinentTpl.js" afterPath="$PROJECT_DIR$/ListStudents/script/application/CountryList/Tpl/ButtonContinentTpl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ListStudents/script/application/CountryList/Controller.js" afterPath="$PROJECT_DIR$/ListStudents/script/application/CountryList/Controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ListStudents/style/CountryList/CountryList.css" afterPath="$PROJECT_DIR$/ListStudents/style/CountryList/CountryList.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ListStudents/script/application/CountryList/View/CountyListView.js" afterPath="$PROJECT_DIR$/ListStudents/script/application/CountryList/View/CountyListView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ListStudents/index.html" afterPath="$PROJECT_DIR$/ListStudents/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ListStudents/script/application/StudentList/Model/Student.js" afterPath="$PROJECT_DIR$/ListStudents/script/application/StudentList/Model/Student.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ListStudents/script/application/main.js" afterPath="$PROJECT_DIR$/ListStudents/script/application/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SoftServe.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,21 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CountyListView.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ListStudents/script/application/CountryList/View/CountyListView.js">
+      <file leaf-file-name="Student.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/Model/Student.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.780397" vertical-offset="408" max-vertical-offset="1224">
-              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ListStudents/script/application/CountryList/Controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.75930524" vertical-offset="0" max-vertical-offset="1156">
+              <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -86,8 +74,6 @@
         <option value="$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/CounterView.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/application/ColorBlock/Model/ColorCounter.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/ButtonView.js" />
-        <option value="$PROJECT_DIR$/ListStudents/script/application/StudentList/Model/Student.js" />
-        <option value="$PROJECT_DIR$/ListStudents/script/application/main.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/application/CountryList/Tpl/CountriesTpl.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/application/CountryList/Tpl/ItemTpl.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/application/StudentList/Tpl/Replacer.js" />
@@ -109,6 +95,8 @@
         <option value="$PROJECT_DIR$/ListStudents/style/CountryList/CountryList.css" />
         <option value="$PROJECT_DIR$/ListStudents/script/application/CountryList/Tpl/ButtonContinentTpl.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/application/CountryList/View/CountyListView.js" />
+        <option value="$PROJECT_DIR$/ListStudents/script/application/main.js" />
+        <option value="$PROJECT_DIR$/ListStudents/script/application/StudentList/Model/Student.js" />
       </list>
     </option>
   </component>
@@ -116,8 +104,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="313" />
-    <option name="y" value="47" />
+    <option name="x" value="51" />
+    <option name="y" value="24" />
     <option name="width" value="1227" />
     <option name="height" value="965" />
   </component>
@@ -298,36 +286,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftServe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftServe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ListStudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="script" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentList" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -355,36 +313,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="CountryList" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftServe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftServe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ListStudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="script" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CountryList" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tpl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -547,7 +475,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="313" y="47" width="1227" height="965" extended-state="0" />
+    <frame x="51" y="24" width="1227" height="965" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -739,13 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/Controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.06" vertical-offset="0" max-vertical-offset="850">
@@ -846,14 +767,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/Model/Student.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3585608" vertical-offset="51" max-vertical-offset="1071">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/View/StudentListView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4007444" vertical-offset="0" max-vertical-offset="806">
@@ -918,14 +831,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/CountryList/Model/CountryList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4305211" vertical-offset="10" max-vertical-offset="850">
-          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ListStudents/script/application/CountryList/View/CountryView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.2022332" vertical-offset="0" max-vertical-offset="1326">
@@ -938,14 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15006305" vertical-offset="0" max-vertical-offset="793">
           <caret line="7" column="83" selection-start-line="7" selection-start-column="83" selection-end-line="7" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/CountryList/Model/Country.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59057075" vertical-offset="255" max-vertical-offset="1139">
-          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -974,9 +871,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/CountryList/Model/CountryList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="850">
+          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ListStudents/script/application/CountryList/Controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+        <state vertical-scroll-proportion="0.25310174" vertical-offset="0" max-vertical-offset="806">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
@@ -984,8 +889,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ListStudents/script/application/CountryList/View/CountyListView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.780397" vertical-offset="408" max-vertical-offset="1224">
+        <state vertical-scroll-proportion="1.2866005" vertical-offset="0" max-vertical-offset="1224">
           <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16873449" vertical-offset="0" max-vertical-offset="806">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/CountryList/Model/Country.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9069479" vertical-offset="0" max-vertical-offset="1139">
+          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/Model/Student.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75930524" vertical-offset="0" max-vertical-offset="1156">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
           <folding />
         </state>
       </provider>
