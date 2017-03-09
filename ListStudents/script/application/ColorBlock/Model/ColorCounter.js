@@ -1,42 +1,46 @@
 'use strict';
 
-function ColorCounter () {
-    var counterOfColor = {
-            red: 0,
-            blue: 0,
-            green: 0
-        },
-        colorNow = undefined;
+var ColorCounter = (function () {
+    function ColorCounter () {
+        var counterOfColor = {
+                red: 0,
+                blue: 0,
+                green: 0
+            },
+            colorNow = undefined;
 
-    this.increaseCounter = function (_color) {
-        counterOfColor[_color]++;
-    };
+        this.increaseCounter = function (_color) {
+            counterOfColor[_color]++;
+        };
 
-    this.toArray = function () {
-        var array = [],
-            index = 0,
-            key;
+        this.toArray = function () {
+            var array = [],
+                index = 0,
+                key;
 
-        for (key in counterOfColor) {
-            array[index] = key;
-            index++;
-        }
+            for (key in counterOfColor) {
+                array[index] = key;
+                index++;
+            }
 
-        return array;
-    };
+            return array;
+        };
 
-    this.toJSON = function () {
-        var JSON = {},
-            key;
+        this.toJSON = function () {
+            var JSON = {},
+                key;
 
-        for (key in counterOfColor) {
-            JSON[key] = counterOfColor[key];
-        }
+            for (key in counterOfColor) {
+                JSON[key] = counterOfColor[key];
+            }
 
-        return JSON;
-    };
+            return JSON;
+        };
 
-    return this;
-}
+        return this;
+    }
 
-ColorCounter.prototype = new Observer();
+    ColorCounter.prototype = new Observer();
+
+    return ColorCounter;
+})();
