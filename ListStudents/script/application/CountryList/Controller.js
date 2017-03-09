@@ -2,14 +2,14 @@
 
 function ControllerCountryList () {
     var _countryList = document.querySelector('#countryList'),
-        _countries = document.querySelector('#countries'),
+        _countriesBorder = document.querySelector('#countriesBorder'),
         countryList = new CountryList(),
         countries = countryList.getCountriesOfContinent('all'),
         countryListView = new CountryListView(countries),
-        buttonContinent = countryListView.renderButtonContinent();
+        buttonContinent = countryListView.renderButtonContinents();
 
     _countryList.appendChild(countryListView.display());
-    _countries.appendChild(buttonContinent);
+    _countriesBorder.appendChild(buttonContinent);
 
     mediator.sub('CountryListCountryDeleted', function (country) {
         countryList.removeCountry(country);
