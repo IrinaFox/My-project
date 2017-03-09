@@ -1,13 +1,21 @@
 'use strict';
 
-function ButtonView () {
-    var miniDiv = document.createElement('div'),
-        colorCounter = new ColorCounter(),
-        colors = colorCounter.toArray();
+var ButtonView = (function () {
+    function ButtonView () {
+        this.render = function () {
+            var miniDiv = this.createButtons();
+                miniDiv.classList.add('mainDiv');
+            return miniDiv;
+        };
 
-    miniDiv.classList.add('mainDiv');
+        return this;
+    }
 
-    this.render = function () {
+    ButtonView.prototype.createButtons = function () {
+        var miniDiv = document.createElement('div'),
+            colorCounter = new ColorCounter(),
+            colors = colorCounter.toArray();
+
         colors.forEach(function (color) {
             var buttonDiv = document.createElement('div'),
                 stringButton = buttonColorTpl.replace(/:color/g, color),
@@ -33,5 +41,5 @@ function ButtonView () {
         return miniDiv;
     };
 
-    return this;
-}
+    return ButtonView;
+})();

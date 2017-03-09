@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d27c6083-3f92-4ef7-9a86-c5abc1077b6b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ListStudents/script/application/ColorBlock/Model/ColorCounter.js" afterPath="$PROJECT_DIR$/ListStudents/script/application/ColorBlock/Model/ColorCounter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ListStudents/script/application/StudentList/View/InfoView.js" afterPath="$PROJECT_DIR$/ListStudents/script/application/StudentList/View/InfoView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ListStudents/script/application/StudentList/Model/StudentList.js" afterPath="$PROJECT_DIR$/ListStudents/script/application/StudentList/Model/StudentList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/BlockView.js" afterPath="$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/BlockView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/ButtonView.js" afterPath="$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/ButtonView.js" />
     </list>
     <ignored path="SoftServe.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,11 +27,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ColorCounter.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ColorCounter.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ListStudents/script/application/ColorBlock/Model/ColorCounter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18982631" vertical-offset="0" max-vertical-offset="867">
-              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlockView.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/BlockView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ButtonView.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/ButtonView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6116625" vertical-offset="0" max-vertical-offset="850">
+              <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CounterView.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/CounterView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+              <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ListStudents/script/application/ColorBlock/Controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+              <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -64,11 +103,9 @@
         <option value="$PROJECT_DIR$/ListStudents/script/application/StudentList/Model/Description.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/Description.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/main.js" />
-        <option value="$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/BlockView.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/application/ColorBlock/Model/Counter.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/application/ColorBlock/Controller.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/CounterView.js" />
-        <option value="$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/ButtonView.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/application/CountryList/Tpl/CountriesTpl.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/application/CountryList/Tpl/ItemTpl.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/application/StudentList/Tpl/Replacer.js" />
@@ -97,6 +134,8 @@
         <option value="$PROJECT_DIR$/ListStudents/script/application/StudentList/View/InfoView.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/application/StudentList/Model/StudentList.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/application/ColorBlock/Model/ColorCounter.js" />
+        <option value="$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/BlockView.js" />
+        <option value="$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/ButtonView.js" />
       </list>
     </option>
   </component>
@@ -256,67 +295,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="StudentList" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftServe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftServe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ListStudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="script" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentList" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftServe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftServe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ListStudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="script" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentList" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
+              <option name="myItemId" value="ColorBlock" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -343,6 +322,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ColorBlock" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -566,7 +549,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -676,13 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/ColorBlock/Controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/Tpl/ItemTpl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
@@ -779,30 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.5319426" vertical-offset="408" max-vertical-offset="23919">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/CounterView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="806">
-          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/ButtonView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10545906" vertical-offset="0" max-vertical-offset="806">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/BlockView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42183623" vertical-offset="0" max-vertical-offset="806">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -918,14 +870,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/Controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4007444" vertical-offset="0" max-vertical-offset="806">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/View/InfoView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7171216" vertical-offset="0" max-vertical-offset="806">
@@ -942,10 +886,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/Controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/ColorBlock/Controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/CounterView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="806">
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ListStudents/script/application/ColorBlock/Model/ColorCounter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18982631" vertical-offset="0" max-vertical-offset="867">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/BlockView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/ButtonView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6116625" vertical-offset="0" max-vertical-offset="850">
+          <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
           <folding />
         </state>
       </provider>

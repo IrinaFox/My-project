@@ -1,21 +1,26 @@
 'use strict';
 
-function BlockView () {
-    var containerDiv = document.createElement('div');
+var BlockView = (function () {
+    function BlockView () {
+        this.render = function () {
+            var containerDiv = document.createElement('div');
 
-    this.render = function () {
-        containerDiv.classList.add('mainDiv');
-        containerDiv.innerHTML = blockTpL;
-        return containerDiv;
-    };
+            containerDiv.classList.add('mainDiv');
+            containerDiv.innerHTML = blockTpL;
 
-    mediator.sub('changeBlock',function (_color) {
-        var block = document.querySelector('#block'),
-            color = _color;
+            return containerDiv;
+        };
 
-        block.removeAttribute('class');
-        block.classList.add(color);
-    });
+        mediator.sub('changeBlock',function (_color) {
+            var block = document.querySelector('#block'),
+                color = _color;
 
-    return this;
-}
+            block.removeAttribute('class');
+            block.classList.add(color);
+        });
+
+        return this;
+    }
+
+    return BlockView;
+})();
