@@ -1,6 +1,5 @@
 'use strict';
 
-//For one line with data of student
 var ItemView = (function () {
     function ItemView (_student) {
         var containerDiv = document.createElement('div'),
