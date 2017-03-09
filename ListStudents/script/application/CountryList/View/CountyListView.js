@@ -28,8 +28,6 @@ var CountryListView = (function () {
             return f;
         };
 
-
-
         return this;
     }
 

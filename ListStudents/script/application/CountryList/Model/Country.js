@@ -27,11 +27,7 @@ var Country = (function () {
         };
 
         this.set = function (_key, _value) {
-            var key = _key,
-                value = _value,
-                firstKey = values[key];
-
-            values[key] = value;
+            values[_key] = _value;
         };
 
         return this;
@@ -39,21 +35,23 @@ var Country = (function () {
 
     Country.prototype.getContinent = function () {
         var regions = parserContinents(),
-            continent,
             continents = {
-                asia: [regions[0], regions[7], regions[8]]
-            };
+                asia: [regions[0], regions[7], regions[8]],
+                europa: [regions[1], regions[4], regions[10]],
+                africa: [regions[2], regions[5]],
+                australia: [regions[3]],
+                america: [regions[6], regions[9]]
+            },
+            countryRegion = this.get('region'),
+            continent,
+            key;
 
-        if (this.get('region') === regions[0] || this.get('region') === regions[7] || this.get('region') === regions[8]) {
-            continent = 'asia';
-        } else if (this.get('region') === regions[1] || this.get('region') === regions[4] || this.get('region') === regions[10]) {
-            continent = 'europa';
-        } else if (this.get('region') === regions[2] || this.get('region') === regions[5]) {
-            continent = 'africa';
-        } else if (this.get('region') === regions[3]) {
-            continent = 'australia';
-        } else if (this.get('region') === regions[6] || this.get('region') === regions[9]) {
-            continent = 'america';
+        for (key in continents) {
+            continents[key].forEach(function (region) {
+               if (countryRegion === region) {
+                   continent = key;
+               }
+            });
         }
 
         return continent;
