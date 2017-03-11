@@ -38,4 +38,3 @@ function CounterView () {
 
     return this;
 }
-

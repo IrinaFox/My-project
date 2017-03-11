@@ -2,6 +2,16 @@
 
 var StudentList = (function () {
     function StudentList () {
+        var students = this.initialize();
+
+        this.forEach = function (fn) {
+            students.forEach(fn);
+        };
+
+        return this;
+    }
+
+    StudentList.prototype.initialize = function () {
         var irina = new Student("Irina", 'Ruban', "female", "princess_rina88", "+380505610891", "irina.fox88@gmail.com", '1995,2,4'),
             svetlana = new Student("Svetlana", 'Ovcharenko', "female", "ami-caty", "+380663334455", "svetlana.sunny@gmail.com", '1997,1,1'),
             polina = new Student("Polina", 'Zhylyaeva', "female", "polina_volna", "+380934445566", "poluina.catty3@gmail.com", '1997,1,1'),
@@ -10,12 +20,8 @@ var StudentList = (function () {
             vladimir = new Student("Vladimir", 'Timofeev', "male", "vovanium", "+380634207163", "vladivir.terminator55@gmail.com", '1997,1,1'),
             students = [irina, svetlana, polina, elena, alexey, vladimir];
 
-        this.forEach = function (fn) {
-            students.forEach(fn);
-        };
-
-        return this;
-    }
+        return students;
+    };
 
     return StudentList;
 })();

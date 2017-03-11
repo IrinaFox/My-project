@@ -5,7 +5,7 @@ var CountryListView = (function () {
         var countries = _countries;
 
         this.getCountries = function () {
-          return countries;
+            return countries;
         };
 
         this.render = function () {
@@ -55,9 +55,9 @@ var CountryListView = (function () {
         buttons = containerDiv.querySelectorAll('input');
 
         buttons.forEach(function (button) {
-           button.addEventListener('click', function () {
-               mediator.pub('continentChosen', button.name);
-           }, false);
+            button.addEventListener('click', function () {
+                mediator.pub('continentChosen', button.name);
+            }, false);
         });
 
         return containerDiv;

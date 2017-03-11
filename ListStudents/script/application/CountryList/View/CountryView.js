@@ -6,23 +6,23 @@ var CountryView = (function () {
         var country = _country,
             containerDiv = document.createElement('div');
 
-         this.render = function () {
-             var stringElement = replacer(country, countryTpl);
+        this.render = function () {
+            var stringElement = replacer(country, countryTpl);
 
-             containerDiv.innerHTML = stringElement;
-             containerDiv.classList.add('lineCountry');
+            containerDiv.innerHTML = stringElement;
+            containerDiv.classList.add('lineCountry');
 
-             this.addEvents();
+            this.addEvents();
 
-             return containerDiv;
-         };
+            return containerDiv;
+        };
 
         /*this.render = function () {
-            return this.renderElement(containerDiv, country, countryTpl, 'lineCountry', this.addEvents);
-        }; */
+         return this.renderElement(containerDiv, country, countryTpl, 'lineCountry', this.addEvents);
+         }; */
 
         this.getContainer = function (key) {
-          return containerDiv;
+            return containerDiv;
         };
 
         this.getCountry = function () {

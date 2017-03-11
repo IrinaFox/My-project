@@ -3,6 +3,8 @@
 //Constructor for creating students
 var Student = (function () {
     function Student (_name, _lastName, _gender, _skype, _phone, _email, _birthday) {
+        Observer.call(this);
+
         var values = {
             name: _name,
             lastName: _lastName,
@@ -54,8 +56,6 @@ var Student = (function () {
 
         return this;
     }
-
-    Student.prototype = new Observer();
 
     return Student;
 })();

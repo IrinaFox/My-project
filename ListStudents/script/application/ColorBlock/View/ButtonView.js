@@ -4,7 +4,7 @@ var ButtonView = (function () {
     function ButtonView () {
         this.render = function () {
             var miniDiv = this.createButtons();
-                miniDiv.classList.add('mainDiv');
+            miniDiv.classList.add('mainDiv');
             return miniDiv;
         };
 
