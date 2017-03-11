@@ -1,61 +1,60 @@
 'use strict';
 
 var CountryView = (function () {
-
     function CountryView(_country) {
-        var country = _country,
-            containerDiv = document.createElement('div');
+        var _container = document.createElement('div'),
+            values = {
+                country: _country,
+                container: _container
+            };
 
         this.render = function () {
-            var stringElement = replacer(country, countryTpl);
+            var stringElement = replacer(this.get('country'), countryTpl),
+                container = this.get('container');
 
-            containerDiv.innerHTML = stringElement;
-            containerDiv.classList.add('lineCountry');
+            container.innerHTML = stringElement;
+            container.classList.add('lineCountry');
 
             this.addEvents();
 
-            return containerDiv;
+            return container;
         };
 
         /*this.render = function () {
          return this.renderElement(containerDiv, country, countryTpl, 'lineCountry', this.addEvents);
          }; */
 
-        this.getContainer = function (key) {
-            return containerDiv;
-        };
-
-        this.getCountry = function () {
-            return country;
+        this.get = function (_key) {
+            return values[_key];
         };
 
         return this;
     }
 
     CountryView.prototype.addEvents = function  () {
-        var containerDiv = this.getContainer(),
-            country = this.getCountry(),
-            buttonDislike = containerDiv.querySelector('input[name="dislike"'),
-            buttonDelete =  containerDiv.querySelector('input[name="delete"'),
-            buttonLike = containerDiv.querySelector('input[name="like"');
+        var container = this.get('container'),
+            country = this.get('country'),
+            buttonDislike = container.querySelector('input[name="dislike"'),
+            buttonDelete =  container.querySelector('input[name="delete"'),
+            buttonLike = container.querySelector('input[name="like"');
 
         buttonDislike.addEventListener('click', eventToButtonDislike, false);
         buttonLike.addEventListener('click', eventToButtonLike, false);
         buttonDelete.addEventListener('click', eventToButtonDelete, false);
 
-        function eventToButtonLike () {
-            containerDiv.classList.add('brightCountry')
-        }
-
         function eventToButtonDislike () {
-            containerDiv.parentNode.removeChild(containerDiv);
+            container.parentNode.removeChild(container);
             removeEvents();
         }
 
         function eventToButtonDelete () {
-            containerDiv.parentNode.removeChild(containerDiv);
+            container.parentNode.removeChild(container);
             removeEvents();
             mediator.pub('CountryListCountryDeleted', country);
+        }
+
+        function eventToButtonLike () {
+            container.classList.add('brightCountry');
         }
 
         function removeEvents () {
