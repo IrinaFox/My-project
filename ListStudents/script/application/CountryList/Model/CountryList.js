@@ -41,15 +41,18 @@ var CountryList = (function () {
         var countriesOfContinent = [],
             getContinent = this.getContinent;
 
-        this.forEach(function (country) {
-            var countryContinent = getContinent(country);
+        if (continent === 'all') {
+            countriesOfContinent = this.get('countries');
+        } else {
+            countriesOfContinent = this.get('countries').filter(isContinent);
+        }
 
-            if (continent === 'all') {
-                countriesOfContinent.push(country);
-            } else if (countryContinent === continent) {
-                countriesOfContinent.push(country);
+        function isContinent (country) {
+            var countryContinent = getContinent(country);
+            if (countryContinent === continent) {
+                return country;
             }
-        });
+        }
 
         return countriesOfContinent;
     };
