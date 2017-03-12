@@ -23,15 +23,7 @@ var EditView = (function () {
             closeButton,
             saveButton;
 
-        delete studentJSON['birthdayDate'];
-        delete studentJSON['fullName'];
-        delete studentJSON['age'];
-
-        for (let key in studentJSON) {
-            string += editTpl.replace(':value', key)
-                .replace(':key', studentJSON[key]);
-        }
-
+        string += replacer(student, editTpl);
         string += buttonTpl;
         containerDiv.innerHTML = string;
 
@@ -54,21 +46,12 @@ var EditView = (function () {
         }
 
         function saveEditForm () {
-            var newElements = containerDiv.querySelectorAll('.editElement'),
-                newValues = [],
-                index = 0,
-                i;
-
-            for (i = 0; i < newElements.length; i++) {
-                newValues[index] = newElements[i].value;
-                index++;
-            }
-
-            index = 0;
-
             for (let key in studentJSON) {
-                student.set(key, newValues[index]);
-                index++;
+                var newElement = containerDiv.querySelector('input[name="' + key + '"');
+
+                if (newElement) {
+                    student.set(key, newElement.value);
+                }
             }
 
             closeEditForm();

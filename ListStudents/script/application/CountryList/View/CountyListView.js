@@ -21,15 +21,15 @@ var CountryListView = (function () {
             return listDiv;
         };
 
-        this.display = function () {
+        this.createFragment = function () {
             var countryHeader = this.renderHeader(),
                 countryList = this.render(),
-                f = document.createDocumentFragment();
+                fragment = document.createDocumentFragment();
 
-            f.appendChild(countryHeader);
-            f.appendChild(countryList);
+            fragment.appendChild(countryHeader);
+            fragment.appendChild(countryList);
 
-            return f;
+            return fragment;
         };
 
         return this;

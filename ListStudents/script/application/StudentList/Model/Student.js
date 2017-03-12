@@ -59,4 +59,3 @@ var Student = (function () {
 
     return Student;
 })();
-

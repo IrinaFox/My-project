@@ -8,7 +8,7 @@ function ControllerCountryList () {
         countryListView = new CountryListView(countries),
         buttonContinent = countryListView.renderButtonContinents();
 
-    _countryList.appendChild(countryListView.display());
+    _countryList.appendChild(countryListView.createFragment());
     _countriesBorder.appendChild(buttonContinent);
 
     mediator.sub('CountryListCountryDeleted', function (country) {
@@ -22,7 +22,7 @@ function ControllerCountryList () {
         mediator.pub('eventsDeleted');
 
         _countryList.innerHTML = '';
-        _countryList.appendChild(countryListView.display());
+        _countryList.appendChild(countryListView.createFragment());
     });
 
     return this;
