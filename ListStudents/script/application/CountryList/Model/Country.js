@@ -33,3 +33,28 @@ var Country = (function () {
 
     return Country;
 })();
+
+ /*
+var Country = (function () {
+    function Country (_name, _population, _area, _region) {
+        this.returnedValues = function () {
+            var values = {
+                name: _name,
+                area: _area,
+                population: _population,
+                region: _region
+            };
+
+            return values;
+        };
+
+        Observer.call(this);
+
+
+    }
+
+    Country.prototype = new Model();
+
+
+    return Country;
+})();*/

@@ -1,6 +1,11 @@
 'use strict';
 
-function Model (values) {
+function Model () {
+    this.returnedValues = function () {
+    };
+
+    var values = this.returnedValues();
+
     this.toJSON = function () {
         var JSON = {},
             key;
