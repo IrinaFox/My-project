@@ -15,7 +15,9 @@ var StudentList = (function () {
 
     extend(StudentList, Model);
 
-    StudentList.prototype.initialize = function () {
+    StudentList.prototype.initialize = initialize;
+
+    function initialize () {
         var irina = new Student("Irina", 'Ruban', "female", "princess_rina88", "+380505610891", "irina.fox88@gmail.com", '1995,2,4'),
             svetlana = new Student("Svetlana", 'Ovcharenko', "female", "ami-caty", "+380663334455", "svetlana.sunny@gmail.com", '1997,1,1'),
             polina = new Student("Polina", 'Zhylyaeva', "female", "polina_volna", "+380934445566", "poluina.catty3@gmail.com", '1997,1,1'),
@@ -25,7 +27,7 @@ var StudentList = (function () {
             students = [irina, svetlana, polina, elena, alexey, vladimir];
 
         return students;
-    };
+    }
 
     return StudentList;
 })();

@@ -6,7 +6,6 @@ var Student = (function () {
         Model.call(this);
 
         var toJSONParent = this.toJSON,
-            getParent = this.get,
             setParent = this.set;
 
         this.set('name', _name);
@@ -16,20 +15,19 @@ var Student = (function () {
         this.set('phone', _phone);
         this.set('email', _email);
         this.set('birthday', _birthday);
+        this.set('age', this.getAge());
+        this.set('fullName', this.get('name') + ' ' + this.get('lastName'));
+
 
         this.toJSON = function () {
             var student = toJSONParent();
             student['age'] = getAge();
-            student['fullName'] = getParent('name') + ' ' + getParent('lastName');
+            student['fullName'] = this.get('name') + ' ' + this.get('lastName');
             return student;
         };
 
-        this.get = function (key) {
-            return (key === 'age')? getAge(): getParent[key];
-        };
-
         this.set = function (_key, _value) {
-           var firstKey = getParent(_key);
+           var firstKey = this.get(_key);
 
            setParent(_key, _value);
 
@@ -38,21 +36,22 @@ var Student = (function () {
             }
         };
 
-        function getAge () {
-            /*var date = new Date(),
-                birthday = this.get('birthday'),
-                birthdayDate = new Date(birthday),
-                age;
-
-            age = date.getFullYear() - birthdayDate.getFullYear();*/
-
-            return 20;
-        }
-
         return this;
     }
-
     extend(Student, Model);
+
+    Student.prototype.getAge = getAge;
+
+    function getAge () {
+        /*var date = new Date(),
+         birthday = this.get('birthday'),
+         birthdayDate = new Date(birthday),
+         age;
+
+         age = date.getFullYear() - birthdayDate.getFullYear();*/
+
+        return 20;
+    }
 
     return Student;
 })();
