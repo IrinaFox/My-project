@@ -1,30 +1,25 @@
 'use strict';
 
 function Model () {
-    this.returnedValues = function () {
-    };
-
-    var values = this.returnedValues();
-
     this.toJSON = function () {
         var JSON = {},
             key;
 
-        for (key in values) {
-            JSON[key] = values[key];
+        for (key in this.values) {
+            JSON[key] = this.values[key];
         }
 
         return JSON;
     };
 
     this.get = function (_key) {
-        return values[_key];
+        return this.values[_key];
     };
 
     this.set = function (_key, _value) {
-        values[_key] = _value;
+        this.values[_key] = _value;
     };
 
 }
 
-Model.prototype = new Observer();
+//Model.prototype = new Observer();

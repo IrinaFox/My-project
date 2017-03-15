@@ -1,5 +1,5 @@
 'use strict';
-
+/*
 var Country = (function () {
     function Country (_name, _population, _area, _region) {
         var values = {
@@ -33,28 +33,29 @@ var Country = (function () {
 
     return Country;
 })();
+*/
 
- /*
 var Country = (function () {
     function Country (_name, _population, _area, _region) {
-        this.returnedValues = function () {
-            var values = {
+        Model.call(this);
+
+        this.values = {
                 name: _name,
                 area: _area,
                 population: _population,
                 region: _region
             };
-
-            return values;
-        };
-
-        Observer.call(this);
-
-
     }
-
-    Country.prototype = new Model();
-
+    extend(Country, Model);
 
     return Country;
-})();*/
+})();
+
+
+function extend (Child, Parent) {
+    function Surrogate () {
+        this.constructor = Child;
+    }
+
+    Surrogate.prototype = Parent.prototype;
+}
