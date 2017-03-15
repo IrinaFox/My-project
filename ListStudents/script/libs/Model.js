@@ -1,25 +1,44 @@
 'use strict';
 
-function Model () {
-    this.toJSON = function () {
-        var JSON = {},
-            key;
+var Model = (function () {
+    function Model () {
+        Observer.call(this);
+        var values = {};
 
-        for (key in this.values) {
-            JSON[key] = this.values[key];
-        }
+        this.get = function (_key) {
+            return values[_key];
+        };
 
-        return JSON;
-    };
+        this.set = function (_key, _value) {
+            values[_key] = _value;
+        };
 
-    this.get = function (_key) {
-        return this.values[_key];
-    };
+        this.toJSON = function () {
+            var JSON = {},
+                key;
 
-    this.set = function (_key, _value) {
-        this.values[_key] = _value;
-    };
+            for (key in values) {
+                JSON[key] = values[key];
+            }
 
-}
+            return JSON;
+        };
 
-//Model.prototype = new Observer();
+        this.toArray = function () {
+            var array = [],
+                index = 0,
+                key;
+
+            for (key in values) {
+                array[index] = key;
+                index++;
+            }
+
+            return array;
+        };
+    }
+
+    return Model;
+})();
+
+

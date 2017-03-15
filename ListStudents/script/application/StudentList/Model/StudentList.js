@@ -2,14 +2,18 @@
 
 var StudentList = (function () {
     function StudentList () {
-        var students = this.initialize();
+        Model.call(this);
+
+        this.set('students', this.initialize());
 
         this.forEach = function (fn) {
-            students.forEach(fn);
+            this.get('students').forEach(fn);
         };
 
         return this;
     }
+
+    extend(StudentList, Model);
 
     StudentList.prototype.initialize = function () {
         var irina = new Student("Irina", 'Ruban', "female", "princess_rina88", "+380505610891", "irina.fox88@gmail.com", '1995,2,4'),

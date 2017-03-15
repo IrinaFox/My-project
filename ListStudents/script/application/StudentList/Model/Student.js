@@ -3,59 +3,56 @@
 //Constructor for creating students
 var Student = (function () {
     function Student (_name, _lastName, _gender, _skype, _phone, _email, _birthday) {
-        Observer.call(this);
+        Model.call(this);
 
-        var values = {
-            name: _name,
-            lastName: _lastName,
-            gender: _gender,
-            skype: _skype,
-            phone: _phone,
-            email:_email,
-            birthdayDate: new Date(_birthday)
-        };
+        var toJSONParent = this.toJSON,
+            getParent = this.get,
+            setParent = this.set;
+
+        this.set('name', _name);
+        this.set('lastName', _lastName);
+        this.set('gender', _gender);
+        this.set('skype', _skype);
+        this.set('phone', _phone);
+        this.set('email', _email);
+        this.set('birthday', _birthday);
 
         this.toJSON = function () {
-            var student = {},
-                key;
-
-            for (key in values) {
-                student[key] = values[key];
-            }
-
+            var student = toJSONParent();
             student['age'] = getAge();
-            student['fullName'] = values.name + ' ' + values.lastName;
-
+            student['fullName'] = getParent('name') + ' ' + getParent('lastName');
             return student;
         };
 
         this.get = function (key) {
-            return (key === 'age')? getAge(): values[key];
+            return (key === 'age')? getAge(): getParent[key];
         };
 
         this.set = function (_key, _value) {
-            var key = _key,
-                value = _value,
-                firstKey = values[key];
+           var firstKey = getParent(_key);
 
-            values[key] = value;
+           setParent(_key, _value);
 
-            if (firstKey !== value) {
+           if (firstKey !== _value) {
                 this.pub('change');
             }
         };
 
         function getAge () {
-            var date = new Date(),
+            /*var date = new Date(),
+                birthday = this.get('birthday'),
+                birthdayDate = new Date(birthday),
                 age;
 
-            age = date.getFullYear() - values.birthdayDate.getFullYear();
+            age = date.getFullYear() - birthdayDate.getFullYear();*/
 
-            return age;
+            return 20;
         }
 
         return this;
     }
+
+    extend(Student, Model);
 
     return Student;
 })();
