@@ -31,7 +31,9 @@ var StudentListView = (function () {
         }
     }
 
-    StudentListView.prototype.renderHeader = function () {
+    StudentListView.prototype.renderHeader = renderHeader;
+
+    function renderHeader () {
         var containerDiv = document.createElement('div');
 
         containerDiv.innerHTML = headerStudentListTpl;
@@ -39,7 +41,7 @@ var StudentListView = (function () {
         containerDiv.setAttribute('id', 'menu');
 
         return containerDiv;
-    };
+    }
 
     return StudentListView;
 })();

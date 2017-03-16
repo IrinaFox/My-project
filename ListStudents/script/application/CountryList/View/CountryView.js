@@ -31,7 +31,9 @@ var CountryView = (function () {
         return this;
     }
 
-    CountryView.prototype.addEvents = function  () {
+    CountryView.prototype.addEvents = addEvents;
+
+    function  addEvents () {
         var container = this.get('container'),
             country = this.get('country'),
             buttonDislike = container.querySelector('input[name="dislike"'),
@@ -66,7 +68,7 @@ var CountryView = (function () {
         mediator.sub('eventsDeleted', function  () {
             removeEvents();
         });
-    };
+    }
 
     return CountryView;
 })();

@@ -16,13 +16,13 @@ var Country = (function () {
     Country.prototype.getContinent = getContinent;
 
     function isContinent (continent) {
-        var isContinent = false;
+        var isOwnContinent = false;
 
         if (continent === this.getContinent()) {
-            isContinent = true;
+            isOwnContinent = true;
         }
 
-        return isContinent;
+        return isOwnContinent;
     }
 
     function getContinent () {
