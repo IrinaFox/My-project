@@ -6,7 +6,7 @@ var CountryList = (function () {
         this.set('countries', parserCountries());
 
         this.forEach = function (fn) {
-            this.get('countries').forEach(fn);
+            this.get('countries').each(fn);
         };
 
         return this;

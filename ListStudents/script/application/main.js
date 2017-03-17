@@ -2,8 +2,8 @@
 
 var mediator = new Mediator();
 
-window.addEventListener('load', function () {
+$(document).ready(function () {
     var controllerStudentList = new ControllerStudentList(),
         controllerColorBlock = new ControllerColorBlock(),
         controllerCountryList = new ControllerCountryList();
-}, false);
+});
