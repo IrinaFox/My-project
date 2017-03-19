@@ -65,12 +65,7 @@ var Student = Backbone.Model.extend ({
         phone: undefined,
         email: undefined,
         birthday: undefined,
-        age: 20,
-        fullName: 'full Name lala'
-    },
-
-    getFullName: function () {
-        return this.get('name') + ' ' + this.get('lastName');
+        age: 20
     },
 
     getAge: function () {

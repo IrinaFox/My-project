@@ -1,6 +1,6 @@
 'use strict';
 
-var itemTpl = `<div class="miniDiv fullName">:fullName</div>\
+var itemTpl = `<div class="miniDiv fullName">:name :lastName</div>\
                <div class="miniDiv skype">:skype</div>\
                <div class="miniDiv gender">:gender</div>\
                <div class="miniDivButton"><input type="button" value="More" class="button"/></div>
