@@ -18,22 +18,20 @@ var ItemView = (function () {
              return containerDiv;
          };
 
-        /*this.render = function () {
-            return this.renderElement(containerDiv, student, itemTpl, 'line', addEvent);
-        };*/
+        student.on('change', function () {
+            if (student.hasChanged()) {
+                var stringElement = replacer(student, itemTpl);
 
-        /*student.sub('change', function () {
-            var stringElement = replacer(student, itemTpl);
+                //Delete data with buttons and their events
+                moreButton.removeEventListener('click', changeInfoStatus, false);
+                editButton.removeEventListener('click', showEdit, false);
+                containerDiv.innerHTML = '';
 
-            //Delete data with buttons and their events
-            moreButton.removeEventListener('click', changeInfoStatus, false);
-            editButton.removeEventListener('click', showEdit, false);
-            containerDiv.innerHTML = '';
-
-            //Set new data and new events to buttons
-            containerDiv.innerHTML = stringElement;
-            addEvent();
-        });*/
+                //Set new data and new events to buttons
+                containerDiv.innerHTML = stringElement;
+                addEvent();
+            }
+        });
 
         function addEvent() {
             var buttons = containerDiv.querySelectorAll('input');
