@@ -15,10 +15,9 @@ var ButtonView = (function () {
         var miniDiv = document.createElement('div'),
             colorCounter = new ColorCounter(),
             colorsJSON = colorCounter.toJSON(),
-            colors = [],
-            key;
+            colors = [];
 
-        for (key in colorsJSON) {
+        for (let key in colorsJSON) {
             colors.push(key);
         }
 
