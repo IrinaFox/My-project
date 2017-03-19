@@ -3,16 +3,11 @@
 var CountryView = Backbone.View.extend({
     tagName: 'div',
     className: 'lineCountry',
-    model: Country,
-
-    initialize: function() {
-        this.listenTo(this.model, "change", this.render);
-    },
 
     events: {
         'click .like': 'eventToButtonLike',
         'click .dislike': 'eventToButtonDislike',
-        'click .delete':  'eventToButtonDelete'
+        'click .delete': 'eventToButtonDelete'
     },
 
     template: _.template(countryTpl),
@@ -34,4 +29,3 @@ var CountryView = Backbone.View.extend({
         mediator.pub('CountryListCountryDeleted', this.model);
     }
 });
-
