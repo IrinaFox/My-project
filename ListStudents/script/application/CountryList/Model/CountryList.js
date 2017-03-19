@@ -45,6 +45,61 @@ var CountryList = (function () {
 
 
 
+
+
+
+/*var myCountryList = Backbone.Collection.extend({
+    model: Country
+});
+
+var countries = new Backbone.Collection;
+
+countries.add([]);
+
+    function CountryList () {
+        Model.call(this);
+        this.set('countries', parserCountries());
+
+        this.forEach = function (fn) {
+            this.get('countries').each(fn);
+        };
+
+        return this;
+    }
+
+    extend(CountryList, Model);
+
+    CountryList.prototype.removeCountry = removeCountry;
+    CountryList.prototype.getCountriesOfContinent = getCountriesOfContinent;
+
+    function removeCountry(country) {
+        var index = this.get('countries').indexOf(country);
+        this.get('countries').splice(index, 1);
+    }
+
+    function getCountriesOfContinent (continent) {
+        var countriesOfContinent = [];
+
+        if (continent === 'all') {
+            countriesOfContinent = this.get('countries');
+        } else {
+            countriesOfContinent = this.get('countries').filter(isContinent);
+        }
+
+        function isContinent (country) {
+            if(country.isContinent(continent)) {
+                return country;
+            }
+        }
+
+        return countriesOfContinent;
+    }
+
+    return CountryList;
+})();
+
+
+
 //Example of class
 /*
 class CountryList {

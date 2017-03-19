@@ -1,7 +1,7 @@
 'use strict';
 
 var StudentListView = (function () {
-    function StudentListView (_students, _content) {
+    function StudentListView (_students) {
         var students = _students,
             listDiv = document.createElement('div');
 

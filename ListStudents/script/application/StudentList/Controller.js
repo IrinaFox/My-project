@@ -6,7 +6,7 @@ var ControllerStudentList = (function () {
             _studentList = $('#contentStudentList'),
             infoView = new InfoView(),
             editView = new EditView(),
-            students = new StudentList(),
+            students = studentList,
             studentListView = new StudentListView(students);
 
         _studentList.append(studentListView.display());
