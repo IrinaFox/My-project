@@ -4,9 +4,9 @@ var StudentList = Backbone.Collection.extend ({
     model: Student
 });
 
-var studentList = new StudentList(initialize());
+var studentList = new StudentList(initializeStudents());
 
-function initialize () {
+function initializeStudents () {
     var irina = {
             name: 'Irina',
             lastName: 'Ruban',
