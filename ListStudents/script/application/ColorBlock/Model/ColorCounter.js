@@ -1,21 +1,24 @@
 'use strict';
 
-var ColorCounter = (function () {
-    function ColorCounter () {
-        Model.call(this);
+var ColorCounter = Backbone.Model.extend({
+    defaults: {
+        red: 0,
+        blue: 0,
+        green: 0
+    },
 
-        this.set('red', 0);
-        this.set('blue', 0);
-        this.set('green', 0);
+    increaseCounter: function (_color) {
+        this.set(_color, this.get(_color)+1);
+    },
 
-        this.increaseCounter = function (_color) {
-            this.set(_color, this.get(_color)+1);
-        };
+    toArray: function () {
+        var array = [],
+            key;
 
-        return this;
+        for (key in this.attributes) {
+            array.push(key);
+        }
+
+        return array;
     }
-
-    extend(ColorCounter, Model);
-
-    return ColorCounter;
-})();
+});
