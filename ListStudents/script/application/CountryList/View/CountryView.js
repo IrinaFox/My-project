@@ -1,74 +1,37 @@
 'use strict';
 
-var CountryView = (function () {
-    function CountryView(_country) {
-        var _container = document.createElement('div'),
-            values = {
-                country: _country,
-                container: _container
-            };
+var CountryView = Backbone.View.extend({
+    tagName: 'div',
+    className: 'lineCountry',
+    model: Country,
 
-        this.render = function () {
-            var stringElement = replacer(this.get('country'), countryTpl),
-                container = this.get('container');
+    initialize: function() {
+        this.listenTo(this.model, "change", this.render);
+    },
 
-            container.innerHTML = stringElement;
-            container.classList.add('lineCountry');
+    events: {
+        'click .like': 'eventToButtonLike',
+        'click .dislike': 'eventToButtonDislike',
+        'click .delete':  'eventToButtonDelete'
+    },
 
-            this.addEvents();
+    template: _.template(countryTpl),
 
-            return container;
-        };
+    render: function () {
+        this.$el.html(this.template(this.model.toJSON()))
+    },
 
-        /*this.render = function () {
-         return this.renderElement(containerDiv, country, countryTpl, 'lineCountry', this.addEvents);
-         }; */
+    eventToButtonLike: function () {
+        this.$el.addClass('brightCountry');
+    },
 
-        this.get = function (_key) {
-            return values[_key];
-        };
+    eventToButtonDislike: function () {
+        this.$el.remove();
+    },
 
-        return this;
+    eventToButtonDelete: function () {
+        this.$el.remove();
+        mediator.pub('CountryListCountryDeleted', this.model);
     }
+});
 
-    CountryView.prototype.addEvents = addEvents;
-
-    function  addEvents () {
-        var container = this.get('container'),
-            country = this.get('country'),
-            buttonDislike = container.querySelector('input[name="dislike"'),
-            buttonDelete =  container.querySelector('input[name="delete"'),
-            buttonLike = container.querySelector('input[name="like"');
-
-        buttonDislike.addEventListener('click', eventToButtonDislike, false);
-        buttonLike.addEventListener('click', eventToButtonLike, false);
-        buttonDelete.addEventListener('click', eventToButtonDelete, false);
-
-        function eventToButtonDislike () {
-            container.parentNode.removeChild(container);
-            removeEvents();
-        }
-
-        function eventToButtonDelete () {
-            container.parentNode.removeChild(container);
-            removeEvents();
-            mediator.pub('CountryListCountryDeleted', country);
-        }
-
-        function eventToButtonLike () {
-            container.classList.add('brightCountry');
-        }
-
-        function removeEvents () {
-            buttonDislike.removeEventListener('click', eventToButtonDislike);
-            buttonDelete.removeEventListener('click', eventToButtonDelete);
-            buttonLike.removeEventListener('click', eventToButtonLike);
-        }
-
-        mediator.sub('eventsDeleted', function  () {
-            removeEvents();
-        });
-    }
-
-    return CountryView;
-})();

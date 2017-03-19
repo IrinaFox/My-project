@@ -12,10 +12,11 @@ var CountryListView = (function () {
             var listDiv = document.createElement('div');
 
             countries.forEach(function (country) {
-                var countryView = new CountryView(country),
-                    countryElement = countryView.render();
+                var countryView = new CountryView({model: country});
 
-                listDiv.appendChild(countryElement);
+                countryView.render();
+
+                listDiv.appendChild(countryView.el);
             });
 
             return listDiv;
