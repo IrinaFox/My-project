@@ -4,7 +4,7 @@ var ControllerCountryList = (function () {
     function ControllerCountryList() {
         var _countryList = $('#countryList'),
             _countriesBorder = $('#countriesBorder'),
-            countryList = new CountryList(),
+            countryList = new CountryList(parserCountries()),
             countries = countryList.getCountriesOfContinent('all'),
             countryListView = new CountryListView(countries),
             buttonContinent = countryListView.renderButtonContinents();
@@ -13,7 +13,7 @@ var ControllerCountryList = (function () {
         _countriesBorder.append(buttonContinent);
 
         mediator.sub('CountryListCountryDeleted', function (country) {
-            countryList.removeCountry(country);
+            countryList.remove(country);
         });
 
         mediator.sub('continentChosen', function (continent) {

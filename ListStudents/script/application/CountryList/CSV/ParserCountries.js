@@ -11,7 +11,6 @@ function parserCountries () {
             region = countryData[1],
             population = countryData[2],
             area = countryData[3],
-            newCountry,
             country = {
                 name: countryName,
                 population: population,
@@ -19,8 +18,7 @@ function parserCountries () {
                 region: region
             };
 
-        newCountry = new Country(country);
-        countryList.push(newCountry);
+        countryList.push(country);
     });
 
     return countryList;
