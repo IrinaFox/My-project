@@ -1,7 +1,7 @@
 'use strict';
 
 //Constructor for creating students
-var Student = (function () {
+var myStudent = (function () {
     function Student (_name, _lastName, _gender, _skype, _phone, _email, _birthday) {
         Model.call(this);
 
@@ -55,3 +55,32 @@ var Student = (function () {
 
     return Student;
 })();
+
+var Student = Backbone.Model.extend ({
+    defaults: {
+        name: undefined,
+        lastName: undefined,
+        gender: undefined,
+        skype: undefined,
+        phone: undefined,
+        email: undefined,
+        birthday: undefined,
+        age: 20,
+        fullName: 'full Name lala'
+    },
+
+    getFullName: function () {
+        return this.get('name') + ' ' + this.get('lastName');
+    },
+
+    getAge: function () {
+        /*var date = new Date(),
+         birthday = this.get('birthday'),
+         birthdayDate = new Date(birthday),
+         age;
+
+         age = date.getFullYear() - birthdayDate.getFullYear();*/
+
+        return 20;
+    }
+});

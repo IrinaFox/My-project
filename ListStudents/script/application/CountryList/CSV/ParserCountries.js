@@ -11,9 +11,15 @@ function parserCountries () {
             region = countryData[1],
             population = countryData[2],
             area = countryData[3],
-            newCountry;
+            newCountry,
+            country = {
+                name: countryName,
+                population: population,
+                area: area,
+                region: region
+            };
 
-        newCountry = new Country(countryName, population, area, region);
+        newCountry = new Country(country);
         countryList.push(newCountry);
     });
 
@@ -21,26 +27,26 @@ function parserCountries () {
 }
 
 //Find unique regions
-function parserContinents () {
-    var continents = countriesSCV.split(/\r?\n/),
-        uniqueContinents =[],
-        i;
+    function parserContinents () {
+        var continents = countriesSCV.split(/\r?\n/),
+            uniqueContinents =[],
+            i;
 
-    continents.forEach(function (continent) {
-        var region = continent.split('	')[1];
+        continents.forEach(function (continent) {
+            var region = continent.split('	')[1];
 
-        if (uniqueContinents.length === 0) {
-            uniqueContinents.push(region);
-        } else {
-            for (i = 0; i < uniqueContinents.length; i++) {
-                if (region === uniqueContinents[i]) {
-                    break;
-                }
-                if (i === (uniqueContinents.length - 1)) {
-                    uniqueContinents.push(region);
+            if (uniqueContinents.length === 0) {
+                uniqueContinents.push(region);
+            } else {
+                for (i = 0; i < uniqueContinents.length; i++) {
+                    if (region === uniqueContinents[i]) {
+                        break;
+                    }
+                    if (i === (uniqueContinents.length - 1)) {
+                        uniqueContinents.push(region);
+                    }
                 }
             }
-        }
     });
 
     return uniqueContinents;

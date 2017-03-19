@@ -22,7 +22,7 @@ var ItemView = (function () {
             return this.renderElement(containerDiv, student, itemTpl, 'line', addEvent);
         };*/
 
-        student.sub('change', function () {
+        /*student.sub('change', function () {
             var stringElement = replacer(student, itemTpl);
 
             //Delete data with buttons and their events
@@ -33,7 +33,7 @@ var ItemView = (function () {
             //Set new data and new events to buttons
             containerDiv.innerHTML = stringElement;
             addEvent();
-        });
+        });*/
 
         function addEvent() {
             var buttons = containerDiv.querySelectorAll('input');
