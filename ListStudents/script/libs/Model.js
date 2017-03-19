@@ -23,19 +23,6 @@ var Model = (function () {
 
             return JSON;
         };
-
-        this.toArray = function () {
-            var array = [],
-                index = 0,
-                key;
-
-            for (key in values) {
-                array[index] = key;
-                index++;
-            }
-
-            return array;
-        };
     }
 
     return Model;

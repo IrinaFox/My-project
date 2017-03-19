@@ -14,7 +14,13 @@ var ButtonView = (function () {
     ButtonView.prototype.createButtons = function () {
         var miniDiv = document.createElement('div'),
             colorCounter = new ColorCounter(),
-            colors = colorCounter.toArray();
+            colorsJSON = colorCounter.toJSON(),
+            colors = [],
+            key;
+
+        for (key in colorsJSON) {
+            colors.push(key);
+        }
 
         colors.forEach(function (color) {
             var buttonDiv = document.createElement('div'),
