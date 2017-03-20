@@ -4,7 +4,6 @@ var ControllerStudentList = (function () {
     function ControllerStudentList () {
         var _infoEdit = $('#additionalStudentList'),
             _studentList = $('#contentStudentList'),
-            editView = new EditView(),
             students = new StudentList(),
             studentListView = new StudentListView({collection: students});
 
@@ -26,13 +25,13 @@ var ControllerStudentList = (function () {
 
         mediator.sub('StudentListEditChanged', function (_student) {
             var infoWindowList = $('#infoWindowList'),
-                edit = editView.render(_student);
+                editView = new EditView({model: _student});
 
             if (infoWindowList) {
                 _infoEdit.empty();
             }
 
-            _infoEdit.append(edit);
+            _infoEdit.append(editView.render());
         });
 
         return this;

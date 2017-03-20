@@ -1,7 +1,7 @@
 'use strict';
 
 //Make new window, where the user can edit all data except age and birthday
-var EditView = (function () {
+/*var EditView = (function () {
     function EditView () {
         this.render = function (_student) {
             var infoWindowList = document.querySelector('#infoWindowList'),
@@ -64,3 +64,39 @@ var EditView = (function () {
 
     return EditView;
 })();
+    */
+
+
+
+var EditView = Backbone.View.extend({
+    tagName: 'div',
+
+    template: _.template(editTpl),
+
+    render: function () {
+        this.$el.html(this.template(this.model.toJSON()));
+        return this.$el;
+    },
+
+    events: {
+        'click .close': 'closeEdit',
+        'click .save': 'saveEdit'
+    },
+
+    closeEdit:  function () {
+      this.$el.remove();
+    },
+
+    saveEdit: function () {
+        for (let key in this.model.toJSON()) {
+            var newElement = this.$el.find('.' + key);
+
+            if (newElement.val()) {
+                this.model.set(key, newElement.val());
+            }
+        }
+
+        this.closeEdit();
+        mediator.pub('StudentListInfoChanged', this.model);
+    }
+});
