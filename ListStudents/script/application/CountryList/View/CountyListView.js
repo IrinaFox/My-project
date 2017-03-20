@@ -1,5 +1,6 @@
 'use strict';
 
+/*
 var CountryListView = (function () {
     function CountyListView (_countries) {
         var countries = _countries;
@@ -67,6 +68,7 @@ var CountryListView = (function () {
     return CountyListView;
 })();
 
+*/
 
 
 
@@ -76,54 +78,22 @@ var CountryListView = (function () {
 
 
 
-/*var myCountryListView = Backbone.View.extend({
+var CountryListView = Backbone.View.extend({
     render: function () {
+        var element = this.$el;
+
+        element.append(this.renderHeader());
+
         this.collection.forEach(function (country) {
             var countryView = new CountryView({model: country});
 
             countryView.render();
 
-            this.$el.append(countryView.el);
+            element.append(countryView.el);
         });
-    }
+    },
 
-});
-    function CountyListView (_countries) {
-        var countries = _countries;
-
-        this.getCountries = function () {
-            return countries;
-        };
-
-        this.render = function () {
-            var listDiv = document.createElement('div');
-
-            countries.forEach(function (country) {
-                var countryView = new CountryView({model: country});
-
-                countryView.render();
-
-                listDiv.appendChild(countryView.el);
-            });
-
-            return listDiv;
-        };
-
-        this.createFragment = function () {
-            var countryHeader = this.renderHeader(),
-                countryList = this.render(),
-                fragment = document.createDocumentFragment();
-
-            fragment.appendChild(countryHeader);
-            fragment.appendChild(countryList);
-
-            return fragment;
-        };
-
-        return this;
-    }
-
-    CountyListView.prototype.renderHeader = function () {
+    renderHeader: function () {
         var containerDiv = document.createElement('div');
 
         containerDiv.innerHTML = headerCountryListTpl;
@@ -131,9 +101,9 @@ var CountryListView = (function () {
         containerDiv.setAttribute('id', 'menu');
 
         return containerDiv;
-    };
+    },
 
-    CountyListView.prototype.renderButtonContinents = function () {
+    renderButtonContinents: function () {
         var containerDiv = document.createElement('div'),
             buttons;
 
@@ -149,7 +119,5 @@ var CountryListView = (function () {
         });
 
         return containerDiv;
-    };
-
-    return CountyListView;
-})(); */
+    }
+});

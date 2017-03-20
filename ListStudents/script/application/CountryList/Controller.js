@@ -9,7 +9,9 @@ var ControllerCountryList = (function () {
             countryListView = new CountryListView({collection: countries}),
             buttonContinent = countryListView.renderButtonContinents();
 
-        _countryList.append(countryListView.createFragment());
+        countryListView.render();
+
+        _countryList.append(countryListView.el);
         _countriesBorder.append(buttonContinent);
 
         mediator.sub('CountryListCountryDeleted', function (country) {
@@ -18,12 +20,12 @@ var ControllerCountryList = (function () {
 
         mediator.sub('continentChosen', function (continent) {
             countries = countryList.getCountriesOfContinent(continent);
-            countryListView = new CountryListView(countries);
+            countryListView = new CountryListView({collection: countries});
 
-            mediator.pub('eventsDeleted');
+            countryListView.render();
 
-            _countryList.text('');
-            _countryList.append(countryListView.createFragment());
+            _countryList.empty();
+            _countryList.append(countryListView.el);
         });
 
         return this;
