@@ -1,18 +1,11 @@
 'use strict';
 
-var BlockView = (function () {
-    function BlockView () {
-        this.render = function () {
-            var containerDiv = document.createElement('div');
+var BlockView = Backbone.View.extend({
+    tagName: 'div',
+    className: 'mainDiv',
 
-            containerDiv.classList.add('mainDiv');
-            containerDiv.innerHTML = blockTpL;
-
-            return containerDiv;
-        };
-
-        return this;
+    render: function () {
+        this.$el.html(blockTpL);
+        return this.$el;
     }
-
-    return BlockView;
-})();
+});
