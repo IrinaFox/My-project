@@ -6,8 +6,11 @@ var StudentListView = (function () {
             listDiv = document.createElement('div');
 
         this.render = function () {
-            students.forEach(function (item) {
-                createStudent(item);
+            students.forEach(function (student) {
+                var studentView = new ItemView({model: student});
+
+                    studentView.render();
+                listDiv.append(studentView.el);
             });
 
             return listDiv;
@@ -25,9 +28,7 @@ var StudentListView = (function () {
         };
 
         function createStudent (item) {
-            var studentView = new ItemView(item),
-                student = studentView.render();
-            listDiv.appendChild(student);
+
         }
     }
 

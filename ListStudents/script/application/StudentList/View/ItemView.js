@@ -1,56 +1,29 @@
 'use strict';
 
-var ItemView = (function () {
-    function ItemView (_student) {
-        var containerDiv = document.createElement('div'),
-            student = _student,
-            moreButton,
-            editButton;
+var ItemView = Backbone.View.extend({
+    tagName: 'div',
+    className: 'line',
 
-        this.render = function () {
-             var stringElement = replacer(student, itemTpl);
+    template: _.template(itemTpl),
 
-             containerDiv.innerHTML = stringElement;
-             containerDiv.classList.add('line');
+    initialize: function () {
+        this.listenTo(this.model, "change", this.render);
+    },
 
-             addEvent();
+    render: function () {
+        this.$el.html(this.template(this.model.toJSON()))
+    },
 
-             return containerDiv;
-         };
+    events: {
+        'click .more': 'changeInfoStatus',
+        'click .edit': 'showEdit'
+    },
 
-        student.on('change', function () {
-            if (student.hasChanged()) {
-                var stringElement = replacer(student, itemTpl);
+    changeInfoStatus: function () {
+        mediator.pub('StudentListInfoChanged', this.model);
+    },
 
-                //Delete data with buttons and their events
-                moreButton.removeEventListener('click', changeInfoStatus, false);
-                editButton.removeEventListener('click', showEdit, false);
-                containerDiv.innerHTML = '';
-
-                //Set new data and new events to buttons
-                containerDiv.innerHTML = stringElement;
-                addEvent();
-            }
-        });
-
-        function addEvent() {
-            var buttons = containerDiv.querySelectorAll('input');
-
-            moreButton = buttons[0];
-            editButton = buttons[1];
-
-            moreButton.addEventListener('click', changeInfoStatus, false);
-            editButton.addEventListener('click', showEdit, false);
-        }
-
-        function changeInfoStatus() {
-            mediator.pub('StudentListInfoChanged', student);
-        }
-
-        function showEdit() {
-            mediator.pub('StudentListEditChanged', student);
-        }
+    showEdit: function () {
+        mediator.pub('StudentListEditChanged', this.model);
     }
-
-    return ItemView;
-})();
+});
