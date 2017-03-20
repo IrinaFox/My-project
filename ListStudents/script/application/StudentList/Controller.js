@@ -7,10 +7,7 @@ var ControllerStudentList = (function () {
             students = new StudentList(),
             studentListView = new StudentListView({collection: students});
 
-        studentListView.render();
-
-
-        _studentList.append(studentListView.$el);
+        _studentList.append(studentListView.render());
 
         mediator.sub('StudentListInfoChanged', function (_student) {
             var infoWindowList = $('#infoWindowList'),

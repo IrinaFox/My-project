@@ -8,9 +8,9 @@ var StudentListView = Backbone.View.extend({
         
         this.collection.forEach(function (student) {
             var studentView = new ItemView({model: student});
-
-            studentView.render();
-            element.append(studentView.el);
+            element.append( studentView.render());
         });
+
+        return element;
     }
 });

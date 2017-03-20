@@ -13,7 +13,8 @@ var CountryView = Backbone.View.extend({
     template: _.template(countryTpl),
 
     render: function () {
-        this.$el.html(this.template(this.model.toJSON()))
+        this.$el.html(this.template(this.model.toJSON()));
+        return this.$el;
     },
 
     eventToButtonLike: function () {

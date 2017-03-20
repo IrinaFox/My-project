@@ -9,10 +9,10 @@ var CountryListView = Backbone.View.extend({
         this.collection.forEach(function (country) {
             var countryView = new CountryView({model: country});
 
-            countryView.render();
-
-            element.append(countryView.$el);
+            element.append(countryView.render());
         });
+
+        return this.$el;
     },
 
     renderButtonContinents: function () {
