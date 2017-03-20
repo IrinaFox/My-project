@@ -11,7 +11,7 @@ var ControllerCountryList = (function () {
 
         countryListView.render();
 
-        _countryList.append(countryListView.el);
+        _countryList.append(countryListView.$el);
         _countriesBorder.append(buttonContinent);
 
         mediator.sub('CountryListCountryDeleted', function (country) {
@@ -25,7 +25,7 @@ var ControllerCountryList = (function () {
             countryListView.render();
 
             _countryList.empty();
-            _countryList.append(countryListView.el);
+            _countryList.append(countryListView.$el);
         });
 
         return this;
