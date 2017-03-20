@@ -4,7 +4,7 @@ var CountryListView = Backbone.View.extend({
     render: function () {
         var element = this.$el;
 
-        element.append(this.renderHeader());
+        element.html(headerCountryListTpl);
 
         this.collection.forEach(function (country) {
             var countryView = new CountryView({model: country});
@@ -13,16 +13,6 @@ var CountryListView = Backbone.View.extend({
 
             element.append(countryView.$el);
         });
-    },
-
-    renderHeader: function () {
-        var containerDiv = document.createElement('div');
-
-        containerDiv.innerHTML = headerCountryListTpl;
-        containerDiv.classList.add('line');
-        containerDiv.setAttribute('id', 'menu');
-
-        return containerDiv;
     },
 
     renderButtonContinents: function () {
