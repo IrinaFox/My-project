@@ -11,7 +11,7 @@ var CountryListView = Backbone.View.extend({
 
             countryView.render();
 
-            element.append(countryView.el);
+            element.append(countryView.$el);
         });
     },
 
