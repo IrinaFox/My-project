@@ -7,9 +7,11 @@ var ControllerStudentList = (function () {
             infoView = new InfoView(),
             editView = new EditView(),
             students = new StudentList(),
-            studentListView = new StudentListView(students.models);
+            studentListView = new StudentListView({collection: students});
 
-        _studentList.append(studentListView.display());
+        studentListView.render();
+
+        _studentList.append(studentListView.$el);
 
         mediator.sub('StudentListInfoChanged', function (_student) {
             var infoWindowList = document.querySelector('#infoWindowList'),
