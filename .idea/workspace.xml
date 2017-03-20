@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d27c6083-3f92-4ef7-9a86-c5abc1077b6b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ListStudents/script/application/StudentList/Controller.js" afterPath="$PROJECT_DIR$/ListStudents/script/application/StudentList/Controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ListStudents/script/application/StudentList/Tpl/EditTpl.js" afterPath="$PROJECT_DIR$/ListStudents/script/application/StudentList/Tpl/EditTpl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ListStudents/script/application/StudentList/View/EditView.js" afterPath="$PROJECT_DIR$/ListStudents/script/application/StudentList/View/EditView.js" />
     </list>
     <ignored path="SoftServe.iws" />
@@ -32,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/View/InfoView.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-              <caret line="15" column="6" selection-start-line="6" selection-start-column="4" selection-end-line="15" selection-end-column="6" />
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -41,38 +39,8 @@
       <file leaf-file-name="EditView.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/View/EditView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7125604" vertical-offset="991" max-vertical-offset="1819">
-              <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EditTpl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/Tpl/EditTpl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-              <caret line="14" column="100" selection-start-line="14" selection-start-column="100" selection-end-line="14" selection-end-column="100" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/Controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
-              <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InfoTpl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/Tpl/InfoTpl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-              <caret line="2" column="85" selection-start-line="2" selection-start-column="83" selection-end-line="2" selection-end-column="85" />
+            <state vertical-scroll-proportion="0.041062802" vertical-offset="0" max-vertical-offset="828">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -999,26 +967,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/Tpl/InfoTpl.js">
+    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/Tpl/EditTpl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <caret line="2" column="85" selection-start-line="2" selection-start-column="83" selection-end-line="2" selection-end-column="85" />
+        <state vertical-scroll-proportion="0.29202455" vertical-offset="0" max-vertical-offset="815">
+          <caret line="14" column="100" selection-start-line="14" selection-start-column="100" selection-end-line="14" selection-end-column="100" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/Controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+        <state vertical-scroll-proportion="0.615942" vertical-offset="0" max-vertical-offset="828">
           <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/Tpl/EditTpl.js">
+    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/Tpl/InfoTpl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <caret line="14" column="100" selection-start-line="14" selection-start-column="100" selection-end-line="14" selection-end-column="100" />
+        <state vertical-scroll-proportion="0.041062802" vertical-offset="0" max-vertical-offset="828">
+          <caret line="2" column="85" selection-start-line="2" selection-start-column="83" selection-end-line="2" selection-end-column="85" />
           <folding />
         </state>
       </provider>
@@ -1026,15 +994,15 @@
     <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/View/InfoView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <caret line="15" column="6" selection-start-line="6" selection-start-column="4" selection-end-line="15" selection-end-column="6" />
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/View/EditView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7125604" vertical-offset="991" max-vertical-offset="1819">
-          <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.041062802" vertical-offset="0" max-vertical-offset="828">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
