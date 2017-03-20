@@ -1,36 +1,21 @@
 'use strict';
 
-//Create new window with more information. works only one time
-var InfoView = (function () {
-    function InfoView () {
-        var infoDiv = document.createElement('div'),
-            buttonClose;
+var InfoView = Backbone.View.extend({
+    tagName: 'div',
+    className: 'infoWindow',
 
-        this.render = function (student) {
-            var stringElement = replacer(student, infoWindowTpl);
+    template: _.template(infoWindowTpl),
 
-            infoDiv.setAttribute('id', 'infoWindowList');
-            infoDiv.classList.add('infoWindow');
+    events: {
+        'click .close': 'closeInfoDiv'
+    },
 
-            infoDiv.innerHTML = stringElement;
+    render: function () {
+        this.$el.html(this.template(this.model.toJSON()));
+        return this.$el;
+    },
 
-            eventToButtonClose();
-
-            return infoDiv;
-        };
-
-        function eventToButtonClose () {
-            buttonClose = infoDiv.querySelector('input');
-            buttonClose.addEventListener('click', removeInfoDiv, false);
-        }
-
-        function removeInfoDiv () {
-            infoDiv.parentNode.removeChild(infoDiv);
-            buttonClose.removeEventListener('click', removeInfoDiv);
-        }
-
-        return this;
+    closeInfoDiv: function () {
+        this.$el.remove();
     }
-
-    return InfoView;
-})();
+});
