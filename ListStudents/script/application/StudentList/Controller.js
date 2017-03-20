@@ -6,8 +6,8 @@ var ControllerStudentList = (function () {
             _studentList = $('#contentStudentList'),
             infoView = new InfoView(),
             editView = new EditView(),
-            students = studentList,
-            studentListView = new StudentListView(students);
+            students = new StudentList(),
+            studentListView = new StudentListView(students.models);
 
         _studentList.append(studentListView.display());
 

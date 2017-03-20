@@ -6,7 +6,7 @@ var ControllerCountryList = (function () {
             _countriesBorder = $('#countriesBorder'),
             countryList = new CountryList(parserCountries()),
             countries = countryList.getCountriesOfContinent('all'),
-            countryListView = new CountryListView(countries),
+            countryListView = new CountryListView({collection: countries}),
             buttonContinent = countryListView.renderButtonContinents();
 
         _countryList.append(countryListView.createFragment());
