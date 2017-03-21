@@ -4,7 +4,7 @@ var InfoView = Backbone.View.extend({
     tagName: 'div',
     className: 'infoWindow',
 
-    template: _.template(infoWindowTpl),
+    template: _.template(tpl.StudentListInfo),
 
     events: {
         'click .close': 'closeInfoDiv'

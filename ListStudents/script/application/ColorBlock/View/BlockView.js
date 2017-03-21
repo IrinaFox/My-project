@@ -5,7 +5,7 @@ var BlockView = Backbone.View.extend({
     className: 'mainDiv',
 
     render: function () {
-        this.$el.html(blockTpL);
+        this.$el.html(tpl.ColorBlockBlock);
         return this.$el;
     }
 });

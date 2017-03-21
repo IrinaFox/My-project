@@ -10,7 +10,7 @@ var CountryView = Backbone.View.extend({
         'click .delete': 'eventToButtonDelete'
     },
 
-    template: _.template(countryTpl),
+    template: _.template(tpl.CountryListItem),
 
     render: function () {
         this.$el.html(this.template(this.model.toJSON()));

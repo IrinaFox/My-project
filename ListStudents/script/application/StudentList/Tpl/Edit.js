@@ -1,6 +1,6 @@
 'use strict';
 
-var editTpl = `<div class="editDiv">
+tpl.StudentListEdit = `<div class="editDiv">
                         <div class="labelEdit">Name</div>
                         <input type="text" name="name" value="<%= name%>" class="editElement name">
                         <div class="labelEdit">Last name</div>

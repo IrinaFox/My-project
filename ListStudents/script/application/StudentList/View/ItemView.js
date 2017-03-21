@@ -4,7 +4,7 @@ var ItemView = Backbone.View.extend({
     tagName: 'div',
     className: 'line',
 
-    template: _.template(itemTpl),
+    template: _.template(tpl.StudentListItem),
 
     initialize: function () {
         this.listenTo(this.model, "change", this.render);

@@ -3,7 +3,7 @@
 var EditView = Backbone.View.extend({
     tagName: 'div',
 
-    template: _.template(editTpl),
+    template: _.template(tpl.StudentListEdit),
 
     render: function () {
         this.$el.html(this.template(this.model.toJSON()));

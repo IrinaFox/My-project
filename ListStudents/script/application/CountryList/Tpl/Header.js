@@ -1,6 +1,6 @@
 'use strict';
 
-var headerCountryListTpl = `<div id="menu"> <div class="miniDiv">COUNTRY</img></div>
+tpl.CountryListHeader = `<div id="menu"> <div class="miniDiv">COUNTRY</img></div>
                  <div class="miniDiv">POPULATION</div>
                  <div class="miniDiv">AREA sq.mi.</div>
                  <div class="miniDivButton">LIKE</div>

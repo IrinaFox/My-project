@@ -4,7 +4,7 @@ var CountryListView = Backbone.View.extend({
     render: function () {
         var element = this.$el;
 
-        element.html(headerCountryListTpl);
+        element.html(tpl.CountryListHeader);
 
         this.collection.forEach(function (country) {
             var countryView = new CountryView({model: country});
@@ -19,7 +19,7 @@ var CountryListView = Backbone.View.extend({
         var containerDiv = document.createElement('div'),
             buttons;
 
-        containerDiv.innerHTML = buttonContinentTpl;
+        containerDiv.innerHTML = tpl.CountryListButtonContinents;
         containerDiv.classList.add('containerButtonContinent');
 
         buttons = containerDiv.querySelectorAll('input');

@@ -5,7 +5,7 @@ var ButtonView = Backbone.View.extend({
     className: 'mainDiv',
 
     render: function () {
-        this.$el.html(buttonColorTpl);
+        this.$el.html(tpl.ColorBlockButtonColor);
         return this.$el;
     },
 

@@ -1,8 +1,9 @@
 'use strict';
 
-var mediator = new Mediator();
+var mediator = new Mediator(),
+    tpl = {};
 
-$(document).ready(function () {
+$(function () {
     var controllerStudentList = new ControllerStudentList(),
         controllerColorBlock = new ControllerColorBlock(),
         controllerCountryList = new ControllerCountryList();
