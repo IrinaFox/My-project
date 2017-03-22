@@ -24,7 +24,7 @@ var Country = Backbone.Model.extend ({
                 asia: [regions[0], regions[7], regions[8]],
                 europa: [regions[1], regions[4], regions[10]],
                 africa: [regions[2], regions[5]],
-                australia: [regions[3]],
+                oceania: [regions[3]],
                 america: [regions[6], regions[9]]
             },
             countryRegion = this.get('region'),

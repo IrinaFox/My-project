@@ -1,4 +1,4 @@
-#countryList {
+#countryListDiv {
     display: inline-block;
 }
 
@@ -6,7 +6,7 @@
     background-color: #fff1f8;
 }
 
-#countryList #menu {
+#countryListDiv #menu {
     background-color: #f0ceec;
 }
 

@@ -4,17 +4,17 @@ var CountryView = Backbone.View.extend({
     tagName: 'div',
     className: 'lineCountry',
 
+    template: _.template(tpl.CountryListItem),
+
     events: {
         'click .like': 'eventToButtonLike',
         'click .dislike': 'eventToButtonDislike',
         'click .delete': 'eventToButtonDelete'
     },
 
-    template: _.template(tpl.CountryListItem),
-
     render: function () {
         this.$el.html(this.template(this.model.toJSON()));
-        return this.$el;
+        return this;
     },
 
     eventToButtonLike: function () {
