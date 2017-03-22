@@ -5,14 +5,14 @@ var EditView = Backbone.View.extend({
 
     template: _.template(tpl.StudentListEdit),
 
-    render: function () {
-        this.$el.html(this.template(this.model.toJSON()));
-        return this.$el;
-    },
-
     events: {
         'click .close': 'closeEdit',
         'click .save': 'saveEdit'
+    },
+
+    render: function () {
+        this.$el.html(this.template(this.model.toJSON()));
+        return this;
     },
 
     closeEdit:  function () {

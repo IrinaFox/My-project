@@ -1,16 +1,18 @@
 'use strict';
 
 var StudentListView = Backbone.View.extend({
-    render: function () {
-        var element = this.$el;
+    tagName: 'div',
 
-        element.html(tpl.StudentListHeader);
+    template: tpl.StudentListHeader,
+
+    render: function () {
+        this.$el.html(this.template);
         
         this.collection.forEach(function (student) {
             var studentView = new ItemView({model: student});
-            element.append( studentView.render());
-        });
+            this.$el.append( studentView.render().$el);
+        }, this);
 
-        return element;
+        return this;
     }
 });

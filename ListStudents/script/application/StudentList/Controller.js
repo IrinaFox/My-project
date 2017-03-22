@@ -7,7 +7,7 @@ var ControllerStudentList = (function () {
             students = new StudentList(),
             studentListView = new StudentListView({collection: students});
 
-        _studentList.append(studentListView.render());
+        _studentList.append(studentListView.render().$el);
 
         mediator.sub('StudentListInfoChanged', function (_student) {
             var infoWindowList = $('#infoWindowList'),
@@ -17,7 +17,7 @@ var ControllerStudentList = (function () {
                 _infoEdit.empty();
             }
 
-            _infoEdit.append(infoView.render());
+            _infoEdit.append(infoView.render().$el);
         });
 
         mediator.sub('StudentListEditChanged', function (_student) {
@@ -28,7 +28,7 @@ var ControllerStudentList = (function () {
                 _infoEdit.empty();
             }
 
-            _infoEdit.append(editView.render());
+            _infoEdit.append(editView.render().$el);
         });
 
         return this;

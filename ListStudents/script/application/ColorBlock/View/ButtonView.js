@@ -4,15 +4,17 @@ var ButtonView = Backbone.View.extend({
     tagName: 'div',
     className: 'mainDiv',
 
-    render: function () {
-        this.$el.html(tpl.ColorBlockButtonColor);
-        return this.$el;
-    },
+    template: tpl.ColorBlockButtonColor,
 
     events: {
         'click .red': 'eventRed',
         'click .green': 'eventGreen',
         'click .blue': 'eventBlue'
+    },
+
+    render: function () {
+        this.$el.html(this.template);
+        return this.$el;
     },
 
     eventRed: function () {
