@@ -14,19 +14,19 @@ var ButtonView = Backbone.View.extend({
 
     render: function () {
         this.$el.html(this.template);
-        return this.$el;
+        return this;
     },
 
     eventRed: function () {
-        mediator.pub('changeCounter', 'red');
+        this.model.increaseCounter('red');
         mediator.pub('changeBlock', 'red');
     },
     eventGreen: function () {
-        mediator.pub('changeCounter', 'green');
+        this.model.increaseCounter('green');
         mediator.pub('changeBlock', 'green');
     },
     eventBlue: function () {
-        mediator.pub('changeCounter', 'blue');
+        this.model.increaseCounter('blue');
         mediator.pub('changeBlock', 'blue');
     }
 });

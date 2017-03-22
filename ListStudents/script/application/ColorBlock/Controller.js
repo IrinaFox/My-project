@@ -3,12 +3,13 @@
 var ControllerColorBlock = (function () {
     function ControllerColorBlock() {
         var _colorBlock = $('#contentColorBlock'),
-            buttonView = new ButtonView(),
-            counterView = new CounterView(),
+            colorCounter = new ColorCounter,
+            buttonView = new ButtonView({model: colorCounter}),
+            counterView = new CounterView({model: colorCounter}),
             blockView = new BlockView(),
-            buttons = buttonView.render(),
-            counter = counterView.render(),
-            block = blockView.render();
+            buttons = buttonView.render().$el,
+            counter = counterView.render().$el,
+            block = blockView.render().$el;
 
         this.display = function () {
             _colorBlock.append(buttons);

@@ -2,10 +2,10 @@
 
 var Country = Backbone.Model.extend ({
     defaults: {
-        name: undefined,
-        population:  undefined,
-        area: undefined,
-        region: undefined
+        name: '',
+        population:  0,
+        area: 0,
+        region: ''
     },
 
     isContinent: function (continent) {
