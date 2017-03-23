@@ -17,7 +17,6 @@ var ButtonContinentView = Backbone.View.extend({
 
     render: function () {
         this.$el.html(this.template);
-        //this.eventButtonContinents();
         return this;
     },
 
@@ -43,15 +42,5 @@ var ButtonContinentView = Backbone.View.extend({
 
     eventOceania: function () {
         mediator.pub('continentChosen', 'oceania');
-    },
-
-    eventButtonContinents: function () {
-        var buttons = this.$el.find('input');
-
-        buttons.each(function (index, button) {
-            $(button).click(function () {
-                mediator.pub('continentChosen', button.name);
-            });
-        });
     }
 });

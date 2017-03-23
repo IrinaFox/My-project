@@ -45,39 +45,3 @@ var Country = (function () {
         }
     });
 })();
-
-
-/*var Country = Backbone.Model.extend ({
-    defaults: {
-        name: '',
-        population:  0,
-        area: 0,
-        region: ''
-    },
-
-    isContinent: function (continent) {
-        var isOwnContinent = false;
-
-        if (continent === this.getContinent()) {
-            isOwnContinent = true;
-        }
-
-        return isOwnContinent;
-    },
-
-    getContinent: function () {
-        var countryRegion = this.get('region'),
-            continent,
-            key;
-
-        for (key in continents) {
-            continents[key].forEach(function (region) {
-                if (countryRegion === region) {
-                    continent = key;
-                }
-            });
-        }
-
-        return continent;
-    }
-}); */
