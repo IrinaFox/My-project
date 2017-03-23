@@ -2,11 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d27c6083-3f92-4ef7-9a86-c5abc1077b6b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/BlockView.js" afterPath="$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/BlockView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/ButtonView.js" afterPath="$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/ButtonView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ListStudents/script/application/ColorBlock/Controller.js" afterPath="$PROJECT_DIR$/ListStudents/script/application/ColorBlock/Controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/CounterView.js" afterPath="$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/CounterView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ListStudents/script/application/CountryList/Model/Country.js" afterPath="$PROJECT_DIR$/ListStudents/script/application/CountryList/Model/Country.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\pics\gender.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\pics\name.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\pics\skype.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\application\ColorBlock\Controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\application\ColorBlock\Model\ColorCounter.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\application\ColorBlock\TpL\BlockTpl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\application\ColorBlock\TpL\ButtonTpl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\application\ColorBlock\View\BlockView.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\application\ColorBlock\View\ButtonView.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\application\ColorBlock\View\CounterView.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\application\CountryList\CSV\CountriesCSV.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\application\CountryList\CSV\ParserCountries.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\application\CountryList\Controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\application\CountryList\Model\Country.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\application\CountryList\Model\CountryList.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\application\CountryList\Tpl\ButtonContinentTpl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\application\CountryList\Tpl\HeaderTpl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\application\CountryList\Tpl\ItemTpl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\application\CountryList\View\ButtonContinentView.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\application\CountryList\View\CountryView.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\application\CountryList\View\CountyListView.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\application\StudentList\Controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\application\StudentList\Model\Student.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\application\StudentList\Model\StudentList.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\application\StudentList\Tpl\EditTpl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\application\StudentList\Tpl\HeaderTpl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\application\StudentList\Tpl\InfoTpl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\application\StudentList\Tpl\ItemTpl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\application\StudentList\View\EditView.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\application\StudentList\View\InfoView.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\application\StudentList\View\ItemView.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\application\StudentList\View\StudentListView.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\application\main.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\libs\Mediator.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\libs\Model.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\libs\Observer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\libs\Replacer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\libs\Surrogate.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\libs\View.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\libs\backbone.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\libs\jquery-3.2.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\libs\underscore.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\style\ColorBlock\ColorBlock.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\style\CountryList\CountryList.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\style\StudentList\Edit.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\style\StudentList\Info.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\style\StudentList\List.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\style\main.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/SoftServe.iml" afterPath="$PROJECT_DIR$/.idea/SoftServe.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SoftServe.iws" />
@@ -31,51 +77,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ColorCounter.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ListStudents/script/application/ColorBlock/Model/ColorCounter.js">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/App/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlockView.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/BlockView.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ButtonView.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/ButtonView.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CounterView.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/CounterView.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-              <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ListStudents/script/application/ColorBlock/Controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12028302" vertical-offset="0" max-vertical-offset="848">
-              <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.16585366" vertical-offset="0" max-vertical-offset="820">
+              <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -89,20 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ListStudents/script/StudentList/View/EditView.js" />
-        <option value="$PROJECT_DIR$/ListStudents/style/main.css" />
-        <option value="$PROJECT_DIR$/ListStudents/style/StudentList/List.css" />
-        <option value="$PROJECT_DIR$/ListStudents/script/application/StudentList/Model/Description.css" />
-        <option value="$PROJECT_DIR$/ListStudents/script/application/StudentList/Model/Description.js" />
-        <option value="$PROJECT_DIR$/ListStudents/script/Description.js" />
-        <option value="$PROJECT_DIR$/ListStudents/script/main.js" />
-        <option value="$PROJECT_DIR$/ListStudents/script/application/ColorBlock/Model/Counter.js" />
-        <option value="$PROJECT_DIR$/ListStudents/script/application/CountryList/Tpl/CountriesTpl.js" />
-        <option value="$PROJECT_DIR$/ListStudents/script/application/CountryList/Tpl/ItemTpl.js" />
-        <option value="$PROJECT_DIR$/ListStudents/script/application/StudentList/Tpl/Replacer.js" />
-        <option value="$PROJECT_DIR$/ListStudents/script/application/CountryList/Tpl/CountriesCSV.js" />
-        <option value="$PROJECT_DIR$/ListStudents/script/application/CountryList/Tpl/ParserCountries.js" />
-        <option value="$PROJECT_DIR$/ListStudents/script/libs/View.js" />
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa0.612/CountryList.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/libs/Suttogate.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/libs/Surrogate.js" />
@@ -120,7 +112,6 @@
         <option value="$PROJECT_DIR$/ListStudents/script/application/StudentList/Tpl/HeaderTpl.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/application/StudentList/Tpl/InfoTpl.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/application/ColorBlock/TpL/BlockTpl.js" />
-        <option value="$PROJECT_DIR$/ListStudents/script/application/main.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/application/CountryList/View/CountryView.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/application/CountryList/View/CountyListView.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/application/CountryList/Tpl/ButtonContinent.js" />
@@ -136,21 +127,40 @@
         <option value="$PROJECT_DIR$/ListStudents/script/application/StudentList/View/ItemView.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/application/CountryList/Model/Country.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/BlockView.js" />
-        <option value="$PROJECT_DIR$/ListStudents/index.html" />
         <option value="$PROJECT_DIR$/ListStudents/script/application/ColorBlock/Controller.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/ButtonView.js" />
         <option value="$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/CounterView.js" />
+        <option value="$USER_HOME$/Desktop/index.js" />
+        <option value="C:/Program Files/nodejs/index.js" />
+        <option value="C:/index.js" />
+        <option value="$PROJECT_DIR$/ListStudents/index.js" />
+        <option value="$PROJECT_DIR$/ListStudents/script/application/main.js" />
+        <option value="$PROJECT_DIR$/ListStudents/index.html" />
+        <option value="$PROJECT_DIR$/ListStudents/style/in.js" />
+        <option value="$PROJECT_DIR$/ListStudents/in.js" />
+        <option value="$PROJECT_DIR$/ListStudents/server.js" />
+        <option value="$PROJECT_DIR$/Client/server.js" />
+        <option value="$PROJECT_DIR$/bla.html" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/App/Server/server.js" />
+        <option value="$PROJECT_DIR$/App/Client/script/application/CountryList/CSV/ParserCountries.js" />
+        <option value="$PROJECT_DIR$/App/Client/script/application/CountryList/Model/Country.js" />
+        <option value="$PROJECT_DIR$/App/server.js" />
       </list>
     </option>
+  </component>
+  <component name="JsBowerSettings">
+    <exe-path />
+    <config-path />
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="221" />
-    <option name="y" value="4" />
-    <option name="width" value="1257" />
-    <option name="height" value="1007" />
+    <option name="x" value="12" />
+    <option name="y" value="9" />
+    <option name="width" value="766" />
+    <option name="height" value="979" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -175,6 +185,17 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -193,175 +214,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ListStudents" />
+              <option name="myItemId" value="App" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftServe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftServe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ListStudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="script" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftServe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftServe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ListStudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="script" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftServe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftServe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ListStudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="script" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ColorBlock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftServe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftServe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ListStudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="script" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ColorBlock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftServe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftServe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ListStudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="script" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ColorBlock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TpL" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftServe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftServe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ListStudents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="script" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ColorBlock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Problems" />
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -394,6 +248,9 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="682" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="options.lastSelected" value="settings.nodejs" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -401,11 +258,11 @@
       <recent name="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ирочка\WebstormProjects\SoftServe" />
+      <recent name="C:\Users\Ирочка\WebstormProjects\SoftServe\Client" />
+      <recent name="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents" />
       <recent name="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\application\CountryList\View" />
       <recent name="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\application\StudentList" />
-      <recent name="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script\libs" />
-      <recent name="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\script" />
-      <recent name="C:\Users\Ирочка\WebstormProjects\SoftServe\ListStudents\pics" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -482,15 +339,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="221" y="4" width="1257" height="1007" extended-state="0" />
+    <frame x="12" y="9" width="766" height="979" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32801822" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.327252" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24978974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24446267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4010989" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39808154" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -548,69 +405,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/CountryList/View/CountryView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="629">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/CountryList/View/CountyListView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="629">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/CountryList/Controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="408">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="612">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="680">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="646">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Blocks-home-work/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="425">
           <caret line="17" column="32" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/style/StudentList/List.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30865923" vertical-offset="0" max-vertical-offset="833">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -670,242 +468,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/style/main.css">
+    <entry file="file://C:/Program Files/nodejs/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.042606518" vertical-offset="0" max-vertical-offset="798">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="848">
+          <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/libs/View.js">
+    <entry file="file://C:/Program Files/nodejs/node_modules/npm/cli.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41769043" vertical-offset="0" max-vertical-offset="814">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/libs/Surrogate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16444983" vertical-offset="0" max-vertical-offset="827">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/CountryList/CSV/CountriesCSV.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3995">
-          <caret line="43" column="43" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/libs/Replacer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.123337366" vertical-offset="0" max-vertical-offset="827">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/libs/Mediator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.452237" vertical-offset="0" max-vertical-offset="827">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/libs/Model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49334946" vertical-offset="0" max-vertical-offset="827">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/CountryList/CSV/ParserCountries.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="125" max-vertical-offset="952">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18478261" vertical-offset="0" max-vertical-offset="828">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/style/CountryList/CountryList.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.307971" vertical-offset="0" max-vertical-offset="828">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/CountryList/Controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.082125604" vertical-offset="0" max-vertical-offset="828">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/CountryList/View/CountyListView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3490338" vertical-offset="0" max-vertical-offset="828">
-          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/CountryList/View/CountryView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.123188406" vertical-offset="0" max-vertical-offset="828">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/Tpl/ItemTpl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.041062802" vertical-offset="0" max-vertical-offset="828">
-          <caret line="2" column="75" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/Tpl/EditTpl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="828">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="848">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/Model/StudentList.js">
+    <entry file="file://C:/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2934783" vertical-offset="0" max-vertical-offset="1173">
-          <caret line="63" column="3" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="848">
+          <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/Controller.js">
+    <entry file="file://$PROJECT_DIR$/App/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75966185" vertical-offset="0" max-vertical-offset="828">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/View/StudentListView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16425121" vertical-offset="0" max-vertical-offset="828">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/View/ItemView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18478261" vertical-offset="0" max-vertical-offset="828">
-          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/View/InfoView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2874396" vertical-offset="0" max-vertical-offset="828">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/View/EditView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2874396" vertical-offset="0" max-vertical-offset="828">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/StudentList/Model/Student.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4722222" vertical-offset="0" max-vertical-offset="828">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/CountryList/Model/CountryList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45169082" vertical-offset="0" max-vertical-offset="828">
-          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/CountryList/View/ButtonContinentView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25" vertical-offset="111" max-vertical-offset="1054">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/CountryList/Model/Country.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18042453" vertical-offset="0" max-vertical-offset="848">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/ColorBlock/Model/ColorCounter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/CounterView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/BlockView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/ColorBlock/View/ButtonView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39659366" vertical-offset="439" max-vertical-offset="1394">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListStudents/script/application/ColorBlock/Controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12028302" vertical-offset="0" max-vertical-offset="848">
-          <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+        <state vertical-scroll-proportion="0.16585366" vertical-offset="0" max-vertical-offset="820">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
           <folding />
         </state>
       </provider>
