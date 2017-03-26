@@ -2,158 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d27c6083-3f92-4ef7-9a86-c5abc1077b6b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Server/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Server/requestHandlers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Server/studentList.json" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\.bin\mime" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\.bin\mime.cmd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\.bin\static" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\.bin\static.cmd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\colors\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\colors\ReadMe.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\colors\examples\normal-usage.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\colors\examples\safe-string.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\colors\lib\colors.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\colors\lib\custom\trap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\colors\lib\custom\zalgo.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\colors\lib\extendStringPrototype.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\colors\lib\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\colors\lib\maps\america.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\colors\lib\maps\rainbow.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\colors\lib\maps\random.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\colors\lib\maps\zebra.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\colors\lib\styles.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\colors\lib\system\supports-colors.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\colors\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\colors\safe.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\colors\themes\generic-logging.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\mime\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\mime\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\mime\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\mime\build\build.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\mime\build\test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\mime\cli.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\mime\mime.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\mime\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\mime\types.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\minimist\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\minimist\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\minimist\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\minimist\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\minimist\readme.markdown" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\minimist\test\bool.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\minimist\test\dash.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\minimist\test\default_bool.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\minimist\test\dotted.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\minimist\test\long.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\minimist\test\num.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\minimist\test\parse.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\minimist\test\parse_modified.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\minimist\test\short.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\minimist\test\whitespace.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\node-static\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\node-static\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\node-static\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\node-static\benchmark\node-static-0.3.0.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\node-static\bin\cli.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\node-static\examples\file-server.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\node-static\lib\node-static.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\node-static\lib\node-static\util.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\node-static\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\node-static\test\fixtures\empty.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\node-static\test\fixtures\hello.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\node-static\test\fixtures\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\node-static\test\fixtures\there\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\node-static\test\integration\node-static-test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\optimist\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\optimist\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\optimist\example\bool.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\optimist\example\boolean_double.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\optimist\example\boolean_single.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\optimist\example\default_hash.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\optimist\example\default_singles.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\optimist\example\divide.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\optimist\example\line_count.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\optimist\example\line_count_options.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\optimist\example\line_count_wrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\optimist\example\nonopt.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\optimist\example\reflect.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\optimist\example\short.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\optimist\example\string.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\optimist\example\usage-options.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\optimist\example\xup.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\optimist\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\optimist\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\optimist\readme.markdown" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\optimist\test\_.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\optimist\test\_\argv.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\optimist\test\_\bin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\optimist\test\dash.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\optimist\test\parse.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\optimist\test\parse_modified.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\optimist\test\short.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\optimist\test\usage.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\optimist\test\whitespace.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\wordwrap\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\wordwrap\README.markdown" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\wordwrap\example\center.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\wordwrap\example\meat.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\wordwrap\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\wordwrap\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\wordwrap\test\break.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\wordwrap\test\idleness.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\Server\node_modules\wordwrap\test\wrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\node_modules\minimist\example\parse.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\pics\gender.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\pics\name.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\pics\skype.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\application\ColorBlock\Controller.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\application\ColorBlock\Model\ColorCounter.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\application\ColorBlock\TpL\BlockTpl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\application\ColorBlock\TpL\ButtonTpl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\application\ColorBlock\View\BlockView.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\application\ColorBlock\View\ButtonView.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\application\ColorBlock\View\CounterView.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\application\CountryList\CSV\CountriesCSV.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\application\CountryList\CSV\ParserCountries.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\application\CountryList\Controller.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\application\CountryList\Model\Country.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\application\CountryList\Model\CountryList.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\application\CountryList\Tpl\ButtonContinentTpl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\application\CountryList\Tpl\HeaderTpl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\application\CountryList\Tpl\ItemTpl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\application\CountryList\View\ButtonContinentView.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\application\CountryList\View\CountryView.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\application\CountryList\View\CountyListView.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\application\StudentList\Controller.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\application\StudentList\Model\Student.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\application\StudentList\Model\StudentList.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\application\StudentList\Tpl\EditTpl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\application\StudentList\Tpl\HeaderTpl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\application\StudentList\Tpl\InfoTpl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\application\StudentList\Tpl\ItemTpl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\application\StudentList\View\EditView.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\application\StudentList\View\InfoView.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\application\StudentList\View\ItemView.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\application\StudentList\View\StudentListView.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\application\main.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\libs\Mediator.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\libs\Model.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\libs\Observer.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\libs\Replacer.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\libs\Surrogate.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\libs\View.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\libs\backbone.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\libs\jquery-3.2.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\script\libs\underscore.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\server.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\style\ColorBlock\ColorBlock.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\style\CountryList\CountryList.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\style\StudentList\Edit.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\style\StudentList\Info.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\style\StudentList\List.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ирочка\WebstormProjects\SoftServe\App\style\main.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/script/application/StudentList/Model/StudentList.js" afterPath="$PROJECT_DIR$/Client/script/application/StudentList/Model/StudentList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Server/server.js" afterPath="$PROJECT_DIR$/Server/server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SoftServe.iws" />
@@ -178,21 +28,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="StudentList.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StudentList.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Client/script/application/StudentList/Model/StudentList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.72069824" vertical-offset="0" max-vertical-offset="802">
+              <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Server/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46633416" vertical-offset="0" max-vertical-offset="802">
-              <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -270,7 +120,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="45" />
     <option name="y" value="6" />
-    <option name="width" value="1387" />
+    <option name="width" value="885" />
     <option name="height" value="961" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -322,20 +172,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SoftServe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftServe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoftServe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -461,15 +297,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="6" width="1387" height="961" extended-state="0" />
-    <editor active="false" />
+    <frame x="45" y="6" width="885" height="961" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.327252" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24978974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19421794" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14876033" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39808154" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -674,18 +510,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/script/application/StudentList/Model/StudentList.js">
+    <entry file="file://$PROJECT_DIR$/Server/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Server/server.js">
+    <entry file="file://$PROJECT_DIR$/Client/script/application/StudentList/Model/StudentList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46633416" vertical-offset="0" max-vertical-offset="802">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.72069824" vertical-offset="0" max-vertical-offset="802">
+          <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
           <folding />
         </state>
       </provider>

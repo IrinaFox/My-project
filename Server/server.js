@@ -19,8 +19,8 @@ function start () {
         file.serve(request, response);
     }
 
-    http.createServer(onRequest).listen(3001);
-    console.log('Server running on port 3001');
+    http.createServer(onRequest).listen(3005);
+    console.log('Server running on port 3005');
 }
 
 exports.start = start;
