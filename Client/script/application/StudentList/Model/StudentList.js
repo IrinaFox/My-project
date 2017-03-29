@@ -2,8 +2,7 @@
 
 var StudentList = Backbone.Collection.extend ({
     model: Student,
-    url: 'http://localhost:8025/getStudentList',
-    uri: '/getStudentList',
+    url: '/getStudentList',
 
     /*initialize: function(){
         this.fetch();
@@ -38,7 +37,4 @@ var StudentList = Backbone.Collection.extend ({
             return data;
         });
     }*/
-
-
-
 });
