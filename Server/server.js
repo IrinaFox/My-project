@@ -3,7 +3,7 @@
 var http = require('http'),
     url = require('url'),
     staticFile = require('node-static'),
-    file = new staticFile.Server('../Client'),
+    file = new staticFile.Server('../Client', {cache: 0}),
     requestHandlers = require('./requestHandlers');
 
 function start () {
