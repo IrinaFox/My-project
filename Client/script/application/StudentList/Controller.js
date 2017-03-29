@@ -7,8 +7,6 @@ var ControllerStudentList = (function () {
             students = new StudentList(),
             studentListView;
 
-        console.log(students.url);
-
         studentListView = new StudentListView({collection: students});
 
         students.on('sync', function () {
