@@ -2,28 +2,29 @@
 
 var StudentList = Backbone.Collection.extend ({
     model: Student,
+    url: 'http://localhost:8025/getStudentList',
+    uri: '/getStudentList',
+
+    /*initialize: function(){
+        this.fetch();
+        console.log(this);
+    }*/
 
     initialize: function () {
-        this.add(this.getStudentList());
-    },
+       this.add(this.getStudentList());
+       console.log(this);
+   },
 
     getStudentList: function () {
         var xhr = new XMLHttpRequest(),
-            students = [];
+            students;
 
         xhr.open('GET', 'getStudentList', false);
 
         xhr.addEventListener('readystatechange',function () {
             if (xhr.readyState === 4) {
                 if(xhr.status === 200) {
-                    var studentsJSON = JSON.parse(xhr.responseText);
-
-                    students.push(studentsJSON.irina);
-                    students.push(studentsJSON.alexey);
-                    students.push(studentsJSON.polina);
-                    students.push(studentsJSON.elena);
-                    students.push(studentsJSON.vladimir);
-                    students.push(studentsJSON.svetlana);
+                    students = JSON.parse(xhr.responseText);
                 }
             }
         }, false);
@@ -32,4 +33,12 @@ var StudentList = Backbone.Collection.extend ({
 
         return students;
     }
+    /*getStudentList: function () {
+        $.get('/getStudentList', function (data) {
+            return data;
+        });
+    }*/
+
+
+
 });

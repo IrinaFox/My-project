@@ -5,7 +5,11 @@ var ControllerStudentList = (function () {
         var _infoEdit = $('#additionalStudentList'),
             _studentList = $('#contentStudentList'),
             students = new StudentList(),
-            studentListView = new StudentListView({collection: students});
+            studentListView;
+
+        console.log(students);
+        studentListView = new StudentListView({collection: students});
+        console.log(studentListView.render().$el);
 
         _studentList.append(studentListView.render().$el);
 

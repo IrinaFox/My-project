@@ -9,8 +9,10 @@ var http = require('http'),
 function start () {
     function onRequest (request, response) {
         var pathname = url.parse(request.url).pathname;
+        console.log('URL ' + pathname);
 
         if (pathname === '/getStudentList') {
+            console.log('!!!');
             response.writeHead(200, {"Content-Type": "application/json"});
             response.write(requestHandlers.getStudentList());
             response.end();
@@ -19,8 +21,8 @@ function start () {
         file.serve(request, response);
     }
 
-    http.createServer(onRequest).listen(3005);
-    console.log('Server running on port 3005');
+    http.createServer(onRequest).listen(8025);
+    console.log('Server running on port 8003');
 }
 
 exports.start = start;
