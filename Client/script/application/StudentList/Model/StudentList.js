@@ -1,14 +1,12 @@
 'use strict';
 
 var StudentList = Backbone.Collection.extend ({
-    model: Student,
-    url: '/getStudentList',
-
-    /*initialize: function(){
+    model: Student
+ 
+    initialize: function(){
         this.fetch();
-        console.log(this);
-    }*/
-
+    }
+    /*
     initialize: function () {
        this.add(this.getStudentList());
        console.log(this);
@@ -32,7 +30,7 @@ var StudentList = Backbone.Collection.extend ({
 
         return students;
     }
-    /*getStudentList: function () {
+    getStudentList: function () {
         $.get('/getStudentList', function (data) {
             return data;
         });
