@@ -4,7 +4,7 @@ var ControllerStudentList = (function () {
     function ControllerStudentList () {
         var _infoEdit = $('#additionalStudentList'),
             _studentList = $('#contentStudentList'),
-            students = new StudentList(),
+            students = new StudentList({url: '/getStudentList'}),
             studentListView;
 
         console.log(students);
