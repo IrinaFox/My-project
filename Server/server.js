@@ -3,7 +3,7 @@
 var http = require('http'),
     url = require('url'),
     staticFile = require('node-static'),
-    file = new staticFile.Server('../Client'),
+    file = new staticFile.Server('../Client', {cache: 0}),
     requestHandlers = require('./requestHandlers');
 
 function start () {
@@ -12,7 +12,7 @@ function start () {
         console.log('URL ' + pathname);
 
         if (pathname === '/getStudentList') {
-            console.log('!!!');
+            console.log('!!!aaaaaa');
             response.writeHead(200, {"Content-Type": "application/json"});
             response.write(requestHandlers.getStudentList());
             response.end();
@@ -21,8 +21,8 @@ function start () {
         file.serve(request, response);
     }
 
-    http.createServer(onRequest).listen(8025);
-    console.log('Server running on port 8003');
+    http.createServer(onRequest).listen(3000);
+    console.log('Server running on port 3000');
 }
 
 exports.start = start;

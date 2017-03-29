@@ -2,6 +2,10 @@
 
 var StudentListView = Backbone.View.extend({
     tagName: 'div',
+   
+    initialize: function () {
+        this.collection.fetch();
+    },
 
     template: tpl.StudentListHeader,
 
