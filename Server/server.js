@@ -18,6 +18,12 @@ function start () {
             response.end();
         }
 
+        if (pathname === '/getCountryList') {
+            response.writeHead(200, {"Content-Type": "application/json"});
+            response.write(requestHandlers.getCountryList());
+            response.end();
+        }
+
         file.serve(request, response);
     }
 
