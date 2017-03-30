@@ -9,13 +9,17 @@ function getStudentList () {
 }
 
 function getCountryList () {
-    var countries = getExistArray(countryList);
-    var countriesString = JSON.stringify(countries);
+    var countries = getExistArray(countryList),
+        countriesString = JSON.stringify(countries);
     return countriesString;
 }
 
 function deleteCountry (id) {
     delete countryList[id];
+}
+
+function changeStudent (id) {
+    console.log('!!!!!! ' + id);
 }
 
 function getExistArray (array) {
@@ -33,4 +37,6 @@ function getExistArray (array) {
 exports.getStudentList = getStudentList;
 exports.getCountryList = getCountryList;
 exports.deleteCountry = deleteCountry;
+exports.changeStudent = changeStudent;
+
 

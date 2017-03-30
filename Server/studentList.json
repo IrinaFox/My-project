@@ -1,4 +1,15 @@
 [
+
+    {
+      "id": "0",
+      "name": "Vladimir",
+      "gender": "male",
+      "skype": "vovanium",
+      "phone": "+380634207163",
+      "email": "vladivir.terminator55@gmail.com",
+      "birthday": "1997,1,1"
+    },
+
     {
         "id": "1",
         "name": "Irina",
@@ -51,16 +62,6 @@
         "skype": "dn100980rev",
         "phone": "+380998885511",
         "email": "alexey.rembo25@gmail.com",
-        "birthday": "1997,1,1"
-    },
-
-    {
-        "id": "6",
-        "name": "Vladimir",
-        "gender": "male",
-        "skype": "vovanium",
-        "phone": "+380634207163",
-        "email": "vladivir.terminator55@gmail.com",
         "birthday": "1997,1,1"
     }
 ]

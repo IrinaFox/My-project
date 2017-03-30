@@ -8,7 +8,10 @@ var http = require('http'),
 
 function start () {
     function onRequest (request, response) {
-        var pathname = url.parse(request.url).pathname;
+        var pathname = url.parse(request.url).pathname,
+            path = pathname.split('/')[1],
+            id = pathname.split('/')[2];
+
         console.log('URL ' + pathname);
 
         if (request.method === 'GET') {
@@ -24,9 +27,6 @@ function start () {
                 response.end();
             }
         } else if (request.method === 'DELETE') {
-            var path = pathname.split('/')[1],
-                id = pathname.split('/')[2];
-
             console.log('PATHNAME ' + pathname + ' PATH ' + path + ' ID ' + id);
 
             if (path === 'getCountryList') {
@@ -34,7 +34,14 @@ function start () {
                 response.writeHead(200, {"Content-Type": "application/json"});
                 response.end();
             }
+        } else if (request.method === 'PUT') {
+            if (path === 'getStudentList') {
+                requestHandlers.changeStudent(id);
+                response.writeHead(200, {"Content-Type": "application/json"});
+                response.end();
+            }
         }
+
 
         file.serve(request, response);
     }

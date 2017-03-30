@@ -20,13 +20,13 @@ var EditView = Backbone.View.extend({
     },
 
     saveEdit: function () {
-        for (let key in this.model.toJSON()) {
-            var newElement = this.$el.find('.' + key);
+        var inputs = this.$('.editElement');
 
-            if (newElement.val()) {
-                this.model.set(key, newElement.val());
+        inputs.each(function (index, input) {
+            if(this.model.get(input.name) !== input.value) {
+                this.model.save(input.name, input.value);
             }
-        }
+        }.bind(this));
 
         this.closeEdit();
         mediator.pub('StudentListInfoChanged', this.model);
