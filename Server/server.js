@@ -36,9 +36,15 @@ function start () {
             }
         } else if (request.method === 'PUT') {
             if (path === 'getStudentList') {
-                requestHandlers.changeStudent(id);
-                response.writeHead(200, {"Content-Type": "application/json"});
-                response.end();
+                var postData = '';
+
+                request.addListener("data", function(postDataChunk) {
+                    postData += postDataChunk;
+                });
+
+                request.addListener("end", function() {
+                    requestHandlers.changeStudent(id, postData);
+                });
             }
         }
 

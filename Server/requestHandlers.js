@@ -18,8 +18,9 @@ function deleteCountry (id) {
     delete countryList[id];
 }
 
-function changeStudent (id) {
-    console.log('!!!!!! ' + id);
+function changeStudent (id, postData) {
+    var newStudent = JSON.parse(postData);
+    studentList[id] = newStudent;
 }
 
 function getExistArray (array) {
