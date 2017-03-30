@@ -11,17 +11,29 @@ function start () {
         var pathname = url.parse(request.url).pathname;
         console.log('URL ' + pathname);
 
-        if (pathname === '/getStudentList') {
-            console.log('!!!aaaaaa');
-            response.writeHead(200, {"Content-Type": "application/json"});
-            response.write(requestHandlers.getStudentList());
-            response.end();
-        }
+        if (request.method === 'GET') {
+            if (pathname === '/getStudentList') {
+                response.writeHead(200, {"Content-Type": "application/json"});
+                response.write(requestHandlers.getStudentList());
+                response.end();
+            }
 
-        if (pathname === '/getCountryList') {
-            response.writeHead(200, {"Content-Type": "application/json"});
-            response.write(requestHandlers.getCountryList());
-            response.end();
+            if (pathname === '/getCountryList') {
+                response.writeHead(200, {"Content-Type": "application/json"});
+                response.write(requestHandlers.getCountryList());
+                response.end();
+            }
+        } else if (request.method === 'DELETE') {
+            var path = pathname.split('/')[1],
+                id = pathname.split('/')[2];
+
+            console.log('PATHNAME ' + pathname + ' PATH ' + path + ' ID ' + id);
+
+            if (path === 'getCountryList') {
+                requestHandlers.deleteCountry(id);
+                response.writeHead(200, {"Content-Type": "application/json"});
+                response.end();
+            }
         }
 
         file.serve(request, response);
