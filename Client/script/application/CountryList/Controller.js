@@ -18,7 +18,7 @@ var ControllerCountryList = (function ($, _) {
             countryList.remove(country);
         });
 
-        mediator.sub('continentChosen', function (continent) {
+        mediator.sub('CountryListContinentChosen', function (continent) {
             _countryList.append(countryListView.render(continent).$el);
         });
 

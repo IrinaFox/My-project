@@ -27,7 +27,6 @@ var CountryView = Backbone.View.extend({
 
     eventToButtonDelete: function () {
         this.$el.remove();
-        //this.pub('CountryListCountryDeleted');
         this.model.destroy();
     }
 });

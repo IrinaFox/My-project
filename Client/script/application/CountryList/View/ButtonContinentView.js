@@ -7,12 +7,7 @@ var ButtonContinentView = Backbone.View.extend({
     template: tpl.CountryListButtonContinents,
 
     events: {
-        'click .oceania': 'eventOceania',
-        'click .america': 'eventAmerica',
-        'click .africa': 'eventAfrica',
-        'click .europa': 'eventEuropa',
-        'click .asia': 'eventAsia',
-        'click .all': 'eventAll'
+        'click .buttonContinent': 'choseContinent'
     },
 
     render: function () {
@@ -20,27 +15,9 @@ var ButtonContinentView = Backbone.View.extend({
         return this;
     },
 
-    eventAll: function () {
-        mediator.pub('continentChosen', 'all');
-    },
-
-    eventEuropa: function () {
-        mediator.pub('continentChosen', 'europa');
-    },
-
-    eventAsia: function () {
-        mediator.pub('continentChosen', 'asia');
-    },
-
-    eventAfrica: function () {
-        mediator.pub('continentChosen', 'africa');
-    },
-
-    eventAmerica: function () {
-        mediator.pub('continentChosen', 'america');
-    },
-
-    eventOceania: function () {
-        mediator.pub('continentChosen', 'oceania');
-    }
+    choseContinent: (function () {
+        return function (e) {
+            mediator.pub('CountryListContinentChosen', e.target.name);
+        };
+    })()
 });
