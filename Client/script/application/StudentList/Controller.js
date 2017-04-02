@@ -1,6 +1,6 @@
 'use strict';
 
-var ControllerStudentList = (function () {
+var ControllerStudentList = (function ($, _) {
     function ControllerStudentList () {
         var _infoEdit = $('#additionalStudentList'),
             _studentList = $('#contentStudentList'),
@@ -39,4 +39,4 @@ var ControllerStudentList = (function () {
     }
 
     return ControllerStudentList;
-})();
+})(jQuery, _);

@@ -1,6 +1,6 @@
 'use strict';
 
-var ControllerCountryList = (function () {
+var ControllerCountryList = (function ($, _) {
     function ControllerCountryList() {
         var _countryList = $('#countryListDiv'),
             _countriesBorder = $('#countriesBorder'),
@@ -26,4 +26,4 @@ var ControllerCountryList = (function () {
     }
 
     return ControllerCountryList
-})();
+})(jQuery, _);
