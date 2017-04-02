@@ -2,16 +2,16 @@
 
 var ControllerCountryList = (function ($, _) {
     function ControllerCountryList() {
-        var _countryList = $('#countryListDiv'),
-            _countriesBorder = $('#countriesBorder'),
+        var $containerCountryList = $('#countryListDiv'),
+            $countriesBorder = $('#countriesBorder'),
             countryList = new CountryList(),
             countryListView = new CountryListView({collection: countryList}),
             buttonContinent = new ButtonContinentView();
 
-        _countriesBorder.append(buttonContinent.render().$el);
+        $countriesBorder.append(buttonContinent.render().$el);
 
         countryList.on('sync', function () {
-            _countryList.append(countryListView.render('all').$el);
+            $containerCountryList.append(countryListView.render('all').$el);
         });
 
         mediator.sub('CountryListCountryDeleted', function (country) {
@@ -19,7 +19,7 @@ var ControllerCountryList = (function ($, _) {
         });
 
         mediator.sub('CountryListContinentChosen', function (continent) {
-            _countryList.append(countryListView.render(continent).$el);
+            $containerCountryList.append(countryListView.render(continent).$el);
         });
 
         return this;

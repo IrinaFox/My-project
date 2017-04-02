@@ -12,7 +12,7 @@ function start () {
             path = pathname.split('/')[1],
             id = pathname.split('/')[2];
 
-        console.log('URL ' + pathname);
+        console.log('METHOD: ' + request.method + ' PATHNAME:' + pathname);
 
         if (request.method === 'GET') {
             if (pathname === '/getStudentList') {
@@ -27,8 +27,6 @@ function start () {
                 response.end();
             }
         } else if (request.method === 'DELETE') {
-            console.log('PATHNAME ' + pathname + ' PATH ' + path + ' ID ' + id);
-
             if (path === 'getCountryList') {
                 requestHandlers.deleteCountry(id);
                 response.writeHead(200, {"Content-Type": "application/json"});
@@ -45,9 +43,10 @@ function start () {
                 request.addListener("end", function() {
                     requestHandlers.changeStudent(id, postData);
                 });
+
+                response.end();
             }
         }
-
 
         file.serve(request, response);
     }

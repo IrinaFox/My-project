@@ -9,8 +9,7 @@ function getStudentList () {
 }
 
 function getCountryList () {
-    var countries = getExistArray(countryList),
-        countriesString = JSON.stringify(countries);
+    var countriesString = JSON.stringify(countryList);
     return countriesString;
 }
 
@@ -21,18 +20,6 @@ function deleteCountry (id) {
 function changeStudent (id, postData) {
     var newStudent = JSON.parse(postData);
     studentList[id] = newStudent;
-}
-
-function getExistArray (array) {
-    var neededArray = [];
-
-    array.forEach(function (item) {
-        if (item) {
-            neededArray.push(item);
-        }
-    });
-
-    return neededArray;
 }
 
 exports.getStudentList = getStudentList;
