@@ -14,5 +14,5 @@ tpl.StudentListEdit = `<div class="editDiv">
                         <div class="labelEdit">Email</div>
                         <input type="text" name="email" value="<%= email%>" class="editElement email">
                         <input type="button" value="Close" class="buttonClose close">
-                        <input type="button" value="Save" class="buttonSave save">;
+                        <input type="button" value="Save" class="buttonSave save">
                </div>`;

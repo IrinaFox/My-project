@@ -6,6 +6,11 @@ var ItemView = Backbone.View.extend({
 
     template: _.template(tpl.StudentListItem),
 
+    events: {
+        'click .more': 'changeInfoStatus',
+        'click .edit': 'showEdit'
+    },
+
     initialize: function () {
         this.listenTo(this.model, "change", this.render);
     },
@@ -13,11 +18,6 @@ var ItemView = Backbone.View.extend({
     render: function () {
         this.$el.html(this.template(this.model.toJSON()));
         return this;
-    },
-
-    events: {
-        'click .more': 'changeInfoStatus',
-        'click .edit': 'showEdit'
     },
 
     changeInfoStatus: function () {

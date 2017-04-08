@@ -22,9 +22,19 @@ function changeStudent (id, postData) {
     studentList[id] = newStudent;
 }
 
+function addStudent (student) {
+    var studentJSON = JSON.parse(student);
+    studentJSON.id = studentList.length + 1;
+
+    studentList.push(studentJSON);
+
+    return JSON.stringify(studentJSON);
+}
+
 exports.getStudentList = getStudentList;
 exports.getCountryList = getCountryList;
 exports.deleteCountry = deleteCountry;
 exports.changeStudent = changeStudent;
+exports.addStudent = addStudent;
 
 

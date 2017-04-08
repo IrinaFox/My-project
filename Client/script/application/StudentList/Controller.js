@@ -5,13 +5,9 @@ var ControllerStudentList = (function ($, _) {
         var $containerInfoEdit = $('#additionalStudentList'),
             $containerStudentList = $('#contentStudentList'),
             students = new StudentList(),
-            studentListView;
+            studentListView = new StudentListView({collection: students});
 
-        studentListView = new StudentListView({collection: students});
-
-        students.on('sync', function () {
-            $containerStudentList.append(studentListView.render().$el);
-        });
+        $containerStudentList.append(studentListView.render().$el);
 
         mediator.sub('StudentListInfoChanged', function (_student) {
             var $infoWindowList = $('#infoWindowList'),
@@ -33,6 +29,11 @@ var ControllerStudentList = (function ($, _) {
             }
 
             $containerInfoEdit.append(editView.render().$el);
+        });
+
+        mediator.sub('StudentListNewStudentCreated', function (newStudent) {
+            students.add(newStudent);
+            console.log(students);
         });
 
         return this;

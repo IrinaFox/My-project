@@ -36,6 +36,11 @@
     padding: 5px;
 }
 
+.addStudent {
+    width: 25px;
+    background-color: #67ff76;
+}
+
 #additionalStudentList {
     display: inline-block;
     vertical-align: top;
